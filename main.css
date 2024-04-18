@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Giroy';
+    /* Nombre que le das a tu fuente */
+    src: url('Assets/Gilroy-Light.otf') format('truetype');
+    /* Ruta al archivo de la fuente regular */
+    font-weight: lighter;
+    /* Peso normal de la fuente */
+}
+
+@font-face {
+    font-family: 'Giroy';
+    /* Nombre que le das a tu fuente */
+    src: url('Assets/Gilroy-Regular.ttf') format('truetype');
+    /* Ruta al archivo de la fuente regular */
+    font-weight: normal;
+    /* Peso normal de la fuente */
+}
+
+@font-face {
+    font-family: 'Giroy';
+    /* Nombre que le das a tu fuente */
+    src: url('Assets/Gilroy-SemiBold.ttf') format('truetype');
+    /* Ruta al archivo de la fuente regular */
+    font-weight: 600;
+    /* Peso normal de la fuente */
+}
+
+@font-face {
+    font-family: 'Giroy';
+    /* Nombre que le das a tu fuente */
+    src: url('Assets/Gilroy-ExtraBold.otf') format('truetype');
+    /* Ruta al archivo de la fuente regular */
+    font-weight: 800;
+    /* Peso normal de la fuente */
+}
+
+
+:root {
+    --bs-black-rgb: 17, 16, 16;
+    --bs-navbar-brand-font-size: 24px !important;
+    --bs-nav-link-font-size: 20px !important;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(17, 16, 16, 1)' stroke-linecap='round' stroke-miterlimit='12' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    font-family: 'Giroy', sans-serif;
+    /* Usar la fuente en todo el cuerpo del documento */
+
+}
+
+body *:hover {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(17, 16, 16, 1)' stroke-linecap='round' stroke-miterlimit='12' stroke-width='2' d='M2 8h26M2 22h26'/%3e%3c/svg%3e");
+
+
+}
+
+* {
+    color: #111010 !important;
+    transition: all 0.5s;
+}
+
+
+
+
+
+/* CUSTOM */
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-contain {
+    background-size: contain;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-posX-center {
+    background-position-x: center !important;
+}
+
+.bg-posY-bottom{
+    background-position-y: bottom
+}
+
+.bg-posY-top{
+    background-position-y: top
+}
+
+.fs-1 {
+    font-size: calc(1.66rem + 1.5vw) !important;
+}
+
+.border-none {
+    border: none !important;
+}
+
+
+.bg-custom-pink{
+    background-color: #FDF1F3!important;
+}
+
+.vh-50 {
+    min-height: 50vh;
+}
+
+/* HEADER */
+
+
+#mainNavBar a {
+    transition: all 0.5s;
+}
+
+#mainNavBar:hover a {
+    opacity: 0.4;
+}
+
+#mainNavBar a:hover {
+    opacity: 1;
+}
+
+
+
+
+/* EFFECTS */
+
+.hovered *:hover  {
+    scale: 0.95 !important;
+}
+
+#cards .hovered:hover *{
+    scale: 1.025 !important;
+}
+
+h5.arrow-icon::after {
+    content: "⮕";
+    padding-left: 1rem;
+    transition: all 0.5s;
+
+}
+
+.btn:hover h5.arrow-icon::after {
+    content: "⮕";
+    padding-left: 2rem;
+
+}
+
+
+
+/* MEDIA QUERY */
+
+
+
+
+
+
+
+
+@media (min-width: 1400px) {
+
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
+
+
+@media (min-width: 992px) {
+    .bg-md-transparent {
+        background-color: transparent !important;
+    }
+
+    .navbar-collapse {
+        border-top: none !important
+    }
+
+    header .shadow {
+        box-shadow: none !important;
+    }
+}
