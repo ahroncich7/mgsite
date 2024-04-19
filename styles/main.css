@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Giroy';
     /* Nombre que le das a tu fuente */
-    src: url('Assets/Gilroy-Light.otf') format('truetype');
+    src: url('../Assets/Gilroy-Light.otf') format('truetype');
     /* Ruta al archivo de la fuente regular */
     font-weight: lighter;
     /* Peso normal de la fuente */
@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'Giroy';
     /* Nombre que le das a tu fuente */
-    src: url('Assets/Gilroy-Regular.ttf') format('truetype');
+    src: url('../Assets/Gilroy-Regular.ttf') format('truetype');
     /* Ruta al archivo de la fuente regular */
     font-weight: normal;
     /* Peso normal de la fuente */
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'Giroy';
     /* Nombre que le das a tu fuente */
-    src: url('Assets/Gilroy-SemiBold.ttf') format('truetype');
+    src: url('../Assets/Gilroy-SemiBold.ttf') format('truetype');
     /* Ruta al archivo de la fuente regular */
     font-weight: 600;
     /* Peso normal de la fuente */
@@ -28,7 +28,7 @@
 @font-face {
     font-family: 'Giroy';
     /* Nombre que le das a tu fuente */
-    src: url('Assets/Gilroy-ExtraBold.otf') format('truetype');
+    src: url('../Assets/Gilroy-ExtraBold.otf') format('truetype');
     /* Ruta al archivo de la fuente regular */
     font-weight: 800;
     /* Peso normal de la fuente */
@@ -87,11 +87,11 @@ body *:hover {
     background-position-x: center !important;
 }
 
-.bg-posY-bottom{
+.bg-posY-bottom {
     background-position-y: bottom
 }
 
-.bg-posY-top{
+.bg-posY-top {
     background-position-y: top
 }
 
@@ -103,14 +103,17 @@ body *:hover {
     border: none !important;
 }
 
-
-.bg-custom-pink{
-    background-color: #FDF1F3!important;
+.bg-custom-pink {
+    background-color: #FDF1F3 !important;
 }
 
 .vh-50 {
     min-height: 50vh;
 }
+
+
+
+
 
 /* HEADER */
 
@@ -132,11 +135,11 @@ body *:hover {
 
 /* EFFECTS */
 
-.hovered *:hover  {
+.hovered *:hover {
     scale: 0.95 !important;
 }
 
-#cards .hovered:hover *{
+#cards .col-md:hover {
     scale: 1.025 !important;
 }
 
@@ -155,15 +158,12 @@ h5.arrow-icon::after {
 
 
 
+
+
+
 /* MEDIA QUERY */
 
-
-
-
-
-
-
-
+/* LG */
 @media (min-width: 1400px) {
 
     .container {
@@ -172,8 +172,7 @@ h5.arrow-icon::after {
 }
 
 
-
-
+/* MD */
 @media (min-width: 992px) {
     .bg-md-transparent {
         background-color: transparent !important;
