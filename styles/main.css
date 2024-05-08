@@ -104,7 +104,9 @@ body *:hover {
 }
 
 .bg-custom-pink {
-    background-color: #FDF1F3 !important;
+    /* background-color: #EAD1D2 !important; */
+    background: rgb(234, 209, 210)!important;
+    background: linear-gradient(315deg, rgba(234, 209, 210, 1) 66%, rgba(255, 255, 255, 1) 100%)!important;
 }
 
 .vh-50 {
@@ -129,6 +131,9 @@ body *:hover {
 #mainNavBar a:hover {
     opacity: 1;
 }
+
+
+/* CARDS */
 
 
 
