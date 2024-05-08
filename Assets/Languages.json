@@ -1,22 +1,48 @@
 {
     "texts": {
-        "es": {
+        "ES": {
             "section1Title": "Préstamos Personales",
             "section1MainText": "Descubre la tranquilidad financiera con nuestros préstamos personales diseñados para brindarte serenidad en tiempos de necesidad. Ya sea que quieras darte un merecido descanso, enfrentar gastos inesperados con calma o dar vida a tus proyectos personales sin agobios, nuestros préstamos personales te ofrecen tasas que te brindarán alivio y plazos que se adaptan a tu ritmo. El proceso de solicitud es simple y rápido, permitiéndote acceder al apoyo que necesitas lo antes posible.",
             "section2Title": "Préstamos Hipotecarios",
-            "section2MainText": "Convierte el sueño de tener tu propio hogar en una experiencia gratificante y apacible a través de nuestros préstamos hipotecarios. Te acompañaremos en esta emocionante travesía, ofreciéndote opciones que se ajustan a tu bienestar. Ya sea que estés dando tus primeros pasos en el mundo inmobiliario, buscando un espacio más amplio para tu tranquilidad o deseando mejorar las condiciones de tu hipoteca actual, nuestros especialistas te guiarán con empatía en cada paso, asegurando que alcances las condiciones que te brinden la tranquilidad mental que te mereces.",
+            "section2MainText": "Convierte el sueño de tener tu propio hogar en una experiencia gratificante y apacible a través de nuestros préstamos hipotecarios. Te acompañaremos en esta emocionante travesía, ofreciéndote opciones que se ajustan a tu bienestar.",
+            "section2MainTextb": "Ya sea que estés dando tus primeros pasos en el mundo inmobiliario, buscando un espacio más amplio para tu tranquilidad o deseando mejorar las condiciones de tu hipoteca actual, nuestros especialistas te guiarán con empatía en cada paso, asegurando que alcances las condiciones que te brinden la tranquilidad mental que te mereces.",
             "section3Title": "Refinanciación",
             "section3MainText": "Transforma tu relación con las finanzas a través de nuestros servicios de refinanciación, diseñados para aliviar tus cargas y traer un soplo de calma a tus días. Si buscas reducir tus pagos mensuales o encontrar tasas que te den respiro, estamos aquí para ayudarte. Ya sea reestructurando tu hipoteca actual, unificando deudas o ajustando tus préstamos para mayor tranquilidad, un equipo de expertos trabajará contigo en armonía para encontrar soluciones que te permitan recobrar la serenidad y alcanzar tus metas.",
             "section4Title": "Reformas",
             "section4MainText": "Puedes darle a tu hogar un nuevo estilo con nuestros préstamos para reformas, diseñados para que tu espacio refleje tu paz interior. Sabemos lo importante que es tu hogar como refugio, y nuestros préstamos para reformas te proporcionan los recursos para llevar a cabo mejoras sin estrés. Con plazos flexibles y tasas que te brindarán tranquilidad, te acompañamos en el proceso de conseguirlo para que puedas disfrutar de tu espacio en armonía.",
             "section5Title": "Inmobiliario - Te ayudamos a conseguir tu vivienda",
+            "section5Subtitle1": "Necesito ayuda para comprar",
+            "section5SubText1": "Encuentra tu espacio de serenidad con la ayuda de nuestros expertos inmobiliarios que comprenden tus necesidades en profundidad.",
             "section5MainText": "Encuentra tu espacio de serenidad con la ayuda de nuestros expertos inmobiliarios que comprenden tus necesidades en profundidad. Nuestro objetivo es acompañarte en esta búsqueda de manera relajada y sin presiones. Desde la exploración de opciones hasta la etapa de negociación, te brindamos apoyo emocional para que tomes decisiones informadas con total calma y puedas disfrutar de tu nuevo hogar con serenidad.",
+            "section5Subtitle2": "Necesito ayuda para elegir mi vivienda",
+            "section5SubText2": "Nuestro objetivo es acompañarte en esta búsqueda de manera relajada y sin presiones.",
+            "section5Subtitle3": "Necesito asesoramiento.",
+            "section5SubText3": "Desde la exploración de opciones hasta la etapa de negociación, te brindamos apoyo emocional para que tomes decisiones informadas con total calma y puedas disfrutar de tu nuevo hogar con serenidad.",
             "section6Title": "Tasaciones",
             "section6MainText": "Toma decisiones financieras informadas desde un lugar de paz interior a través de nuestros servicios de tasación. Obtén evaluaciones detalladas y confiables respaldadas por profesionales que entienden el valor de la tranquilidad en tus elecciones. Ya sea que estés comprando, vendiendo o refinanciando, nuestras tasaciones te brindan la certeza que necesitas para seguir adelante en equilibrio.",
             "section7Title": "Inversiones",
             "section7MainText": "Cultiva tu bienestar financiero a largo plazo a través de la diversificación consciente de tu cartera. Nuestras opciones de inversión están diseñadas para alinearse con tus objetivos y tu sensación de paz. Te brindaremos opciones con orientación para que tomes decisiones financieras desde la serenidad y el equilibrio.",
             "section8Title": "Inmobiliario",
             "section8MainText": "Descubre la armonía en el mercado inmobiliario, donde las oportunidades se combinan con tu sensación de bienestar. Ya sea que busques comprar, vender o invertir en propiedades, estamos aquí para guiarte. Desde propiedades residenciales hasta comerciales, te brindamos la tranquilidad de tomar decisiones informadas que respalden tu patrimonio."
+        },
+        "EN": {
+            "section1Title": "Personal Loans",
+            "section1MainText": "Discover financial peace of mind with our personal loans designed to provide serenity in times of need. Whether you want to take a well-deserved break, face unexpected expenses calmly, or bring your personal projects to life without stress, our personal loans offer rates that will bring relief and terms that adapt to your pace. The application process is simple and fast, allowing you to access the support you need as soon as possible.",
+            "section2Title": "Mortgage Loans",
+            "section2MainText": "Turn the dream of owning your own home into a rewarding and peaceful experience through our mortgage loans. We’ll accompany you on this exciting journey, offering options that fit your well-being.",
+            "section2MainTextb": "Whether you’re taking your first steps in the real estate world, looking for a more spacious place for your peace of mind, or wanting to improve the conditions of your current mortgage, our specialists will guide you empathetically at every step, ensuring you reach conditions that provide the mental tranquility you deserve.",
+            "section3Title": "Refinancing",
+            "section3MainText": "Transform your relationship with finances through our refinancing services, designed to ease your burdens and bring a breath of calm to your days. Whether you’re looking to reduce your monthly payments or find rates that give you respite, we’re here to help. Whether restructuring your current mortgage, consolidating debts, or adjusting your loans for greater peace of mind, a team of experts will work harmoniously with you to find solutions that allow you to regain serenity and achieve your goals.",
+            "section4Title": "Home Renovations",
+            "section4MainText": "Give your home a fresh style with our home renovation loans, designed to reflect your inner peace. We understand how important your home is as a refuge, and our renovation loans provide you with the resources to carry out improvements without stress. With flexible terms and rates that bring you tranquility, we accompany you through the process so you can enjoy your space in harmony.",
+            "section5Title": "Real Estate - We Help You Find Your Home",
+            "section5MainText": "Discover your space of serenity with the assistance of our real estate experts who deeply understand your needs. Our goal is to guide you through this search in a relaxed and pressure-free manner. From exploring options to the negotiation stage, we provide emotional support so you can make informed decisions with complete calmness and enjoy your new home serenely.",
+            "section6Title": "Appraisals",
+            "section6MainText": "Make informed financial decisions from a place of inner peace through our appraisal services. Obtain detailed and reliable evaluations backed by professionals who understand the value of tranquility in your choices. Whether you’re buying, selling, or refinancing, our appraisals provide the certainty you need to move forward in balance.",
+            "section7Title": "Investments",
+            "section7MainText": "Cultivate long-term financial well-being through conscious diversification of your portfolio. Our investment options are designed to align with your goals and sense of peace. We’ll provide guidance so you can make financial decisions from a place of serenity and balance.",
+            "section8Title": "Real Estate",
+            "section8MainText": "Discover harmony in the real estate market, where opportunities combine with your sense of well-being. Whether you’re looking to buy, sell, or invest in properties, we’re here to guide you. From residential to commercial properties, we offer the tranquility of making informed decisions that support your legacy."
         }
     }
 }

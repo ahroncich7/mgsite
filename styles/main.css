@@ -41,6 +41,9 @@
     --bs-nav-link-font-size: 20px !important;
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(17, 16, 16, 1)' stroke-linecap='round' stroke-miterlimit='12' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     --light-pink: rgb(234, 209, 210);
+    --light-green: #8AA086;
+    --dark-green: #2E382C;
+    --silver: #C0C0C0;
 
 }
 
@@ -106,20 +109,45 @@ body *:hover {
 .bg-custom-pink {
     /* background-color: #EAD1D2 !important; */
     background: var(--light-pink) !important;
-    background: linear-gradient(315deg, rgba(234, 209, 210, 1) 66%, rgba(255, 255, 255, 1) 100%) !important;
+    background: linear-gradient(315deg, var(--light-pink) 66%, var(--bs-white) 100%) !important;
+}
+
+.bg-custom-green {
+    background: var(--light-green) !important;
+    background: linear-gradient(315deg, var(--light-green) 66%, var(--dark-green) 100%) !important;
+}
+
+.bg-custom-silver {
+    background: var(--silver) !important;
+    background: linear-gradient(315deg, var(--silver) 66%, var(--bs-white) 100%) !important;
 }
 
 .vh-50 {
     min-height: 50vh;
 }
 
-.vh-100 {
-    min-height: 100vh;
+.vh-75 {
+    min-height: 75vh;
+}
+
+.bg-translucent {
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.no-style-select,
+.no-style-select:hover,
+.no-style-select:active,
+.no-style-select:focus-visible,
+.no-style-select:focus {
+    border: none;
+    background: none;
+    outline: none;
 }
 
 
-
-
+.accordion-button:focus{
+    box-shadow: none;
+}
 
 /* HEADER */
 
@@ -139,6 +167,10 @@ body *:hover {
 
 /* CARDS */
 
+.overlapping-card {
+    top: 60%;
+    left: -5%
+}
 
 
 
@@ -167,7 +199,7 @@ body *:hover {
 
 
 .hovered *:hover {
-    scale: 0.95 !important;
+    scale: 1.010 !important;
 }
 
 #cards .col-md:hover {

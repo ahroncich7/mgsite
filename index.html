@@ -11,107 +11,296 @@
 </head>
 
 <body class="bg-cover" style="background-image: url(Assets/bg6.png)">
-    <header class="sticky-top">
 
-        <nav class="navbar navbar-expand-lg bg-md-transparent px-4 bg-white shadow">
-            <div class="container-fluid">
-                <div>
+    <div class="w-100 vh-100 d-flex justify-content-center align-items-center" id="spinnerCont">
+        <div class="spinner"></div>
+    </div>
 
-                    <a class="navbar-brand fw-bold" href="#">Magda Site</a>
-                </div>
-                <button class="navbar-toggler border-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end mt-4 border-top" id="mainNavBar">
-                    <div class="navbar-nav">
-                        <a class="nav-link text-center active fw-semibold" aria-current="page" href="#main">Main</a>
-                        <a class="nav-link text-center fw-semibold" href="#">Features</a>
-                        <a class="nav-link text-center fw-semibold" href="#">Pricing</a>
+    <!-- BODY CONTENT -->
+    <div id="bodyContent" class="d-none">
+
+        <header class="sticky-top">
+
+            <nav class="navbar navbar-expand-lg bg-md-transparent px-4 bg-white shadow">
+                <div class="container-fluid">
+                    <div>
+
+                        <a class="navbar-brand fw-bold" href="#">Magda Site</a>
                     </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <section class="hovered vh-100 pb-5 pt-3 px-4" id="main">
-        <div class="container h-100 bg-body-secondary rounded-4 p-0 shadow bg-posX-center bg-posY-top bg-cover bg-no-repeat "
-            style="background-image: url(Assets/bg1.png)">
-            <div class="h-100">
-                <div class="h-100 p-5">
-                    <h1 class="fs-1 w-50">A new financial concept</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="bg-main vh-50 pb-5 pt-5 px-4 mt-5 border-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col col-lg-8 mx-auto">
-                    <h3 class="text-center fw-bold fs-1">Your financial well-being is our priority</h3>
-                    <h4 class="text-center"> we accompany you on the journey towards a debt-free life with personalized
-                        solutions and a healthy approach.</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="bg-main vh-50 pb-5 pt-5 px-4 mt-5" id="cards">
-        <div class="container">
-            <div class="row row-gap-5">
-                <div class="text-center col-12 col-md">
-                    <div class="card bg-body-tertiary shadow border-none w-100 mx-auto">
-                        <img src="./Assets/foto1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-text">Wealth Management</h4>
+                    <button class="navbar-toggler border-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end mt-4 border-top" id="mainNavBar">
+                        <div class="navbar-nav">
+                            <a class="nav-link text-center active fw-semibold" aria-current="page" href="#main">Main</a>
+                            <a class="nav-link text-center fw-semibold" href="#">Features</a>
+                            <a class="nav-link text-center fw-semibold" href="#">Pricing</a>
+                            <select class="no-style-select text-center fw-semibold" id="languageSelect">
+                                <option class="bg-translucent" selected value="ES">ES</option>
+                                <option class="bg-translucent" value="EN">EN</option>
+                            </select>
                         </div>
                     </div>
                 </div>
-                <div class="text-center col-12 col-md">
-                    <div class="card bg-body-tertiary shadow border-none w-100 mx-auto">
-                        <img src="./Assets/foto2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-text">Fintech Solutions</h4>
+            </nav>
+        </header>
+
+
+        <section class="bg-main vh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- HIPOTECARIOS -->
+
+        <section class="bg-main bg-tra vh-50 pb-5 pt-5 px-4 mt-5 border-bottom">
+            <div class="container">
+                <div class="row bg-translucent p-2 pt-5">
+                    <div class="col-12 col-md mx-auto align-self-center">
+                        <h3 class="text-center fw-bold fs-1" data-i18n="section2Title">Your financial well-being is our
+                            priority</h3>
+                        <h4 class="text-center" data-i18n="section2MainText"> we accompany you on the journey towards a
+                            debt-free life with
+                            personalized
+                            solutions and a healthy approach.</h4>
+                    </div>
+                    <div class="text-center col-12 align-self-center col-md hovered">
+                        <div class="card bg-body-tertiary shadow border-none w-100 mx-auto rounded-5">
+                            <img src="./Assets/foto3.png" class="card-img-top rounded-5" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-12 mx-auto mt-4">
+                        <h4 class="text-center" data-i18n="section2MainText"> we accompany you on the journey towards a
+                            debt-free life with
+                            personalized
+                            solutions and a healthy approach.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PERSONALES -->
+
+        <section class="bg-custom-green bg-tra vh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
+            <div class="container h-100 align-content-center">
+                <div class="row p-2 pt-5">
+                    <div class="col-12 col-md mx-auto">
+                        <h3 class="text-center fw-bold fs-1 text-light" data-i18n="section1Title">Your financial
+                            well-being is our
+                            priority</h3>
+                        <h4 class="text-center text-light" data-i18n="section1MainText"> we accompany you on the journey
+                            towards a
+                            debt-free life with
+                            personalized
+                            solutions and a healthy approach.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- REFINANCIACIÓN  -->
+
+        <section class="pb-5 pt-5 px-4 mt-5 hovered" id="main">
+            <div class="container h-100 bg-custom-pink rounded-4 p-0 shadow bg-posX-center bg-cover bg-no-repeat"
+                style="background-image: url(Assets/bg1.png)">
+                <div class="">
+                    <div class="p-5 row vh-75">
+                        <h1 class="fs-1 w-50" data-i18n="section3Title">Taking care of what matters</h1>
+                        <h4 class="text-center col-12" data-i18n="section3MainText"> we accompany you on the journey
+                            towards a debt-free life with personalized
+                            solutions and a healthy approach.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- REFORMAS -->
+
+
+        <section class="bg-main bg-tra vh-50 pb-5 pt-5 px-4 mt-5 border-bottom">
+            <div class="container">
+                <div class="row bg-translucent p-2 pt-5">
+                    <div class="text-center col-12 col-lg align-self-center hovered position-relative ms-5 mb-5">
+                        <div class="card bg-transparent shadow border-none w-100 mx-auto rounded-5">
+                            <img src="./Assets/foto1.png" class="card-img-top rounded-5" alt="...">
+                        </div>
+                        <div
+                            class="card bg-transparent shadow border-none w-50 mx-auto rounded-5 position-absolute overlapping-card">
+                            <img src="./Assets/foto2.png" class="card-img-top rounded-5" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg mx-auto align-self-center mt-5">
+                        <h3 class="text-center fw-bold fs-1" data-i18n="section4Title"></h3>
+                        <h4 class="text-center" data-i18n="section4MainText"></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- INMOBILÑIARIO -->
+
+        <section>
+
+            <div class="container vh-100 align-content-center bg-translucent mt-5">
+
+                <h2 class="text-center fw-bold fs-1 w-75 mx-auto my-5" data-i18n="section5Title"></h2>
+
+                <div class="accordion accordion-flush w-75 mx-auto" id="accordionFlushExample">
+                    <div class="accordion-item bg-transparent">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button bg-transparent fw-semibold fs-2 collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne" data-i18n="section5Subtitle1">
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <h4 class="accordion-body" data-i18n="section5SubText1"></h4>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-transparent">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button bg-transparent fw-semibold fs-2 collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo" data-i18n="section5Subtitle2">
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <h4 class="accordion-body" data-i18n="section5SubText2"></h4>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-transparent">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button bg-transparent fw-semibold fs-2 collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree" data-i18n="section5Subtitle3">
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <h4 class="accordion-body" data-i18n="section5SubText3"></h4>
                         </div>
                     </div>
                 </div>
-                <div class="text-center col-12 col-md">
-                    <div class="card bg-body-tertiary shadow border-none w-100 mx-auto">
-                        <img src="./Assets/foto3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4 class="card-text">Risk Management</h4>
-                        </div>
+            </div>
+        </section>
+
+        <!-- TASACIONES -->
+
+
+        <section class="bg-custom-silver bg-tra vh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
+            <div class="container h-75 align-content-center bg-translucent mt-5 rounded-3 shadow">
+                <div class="row p-2 pt-5">
+                    <div class="col-12 col-md mx-auto">
+                        <h3 class="text-center fw-bold fs-1" data-i18n="section6Title"></h3>
+                        <h4 class="text-center" data-i18n="section6MainText"></h4>
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-5">
-                <button type="button" class="btn bg-body-tertiary shadow">
-                    <h5 class="arrow-icon m-2">More Services</h5>
-                </button>
-            </div>
-        </div>
-    </section>
+        </section>
 
 
-    <section class="hovered vh-100 pb-5 pt-5 px-4 mt-5" id="main">
-        <div class="container h-100 bg-custom-pink rounded-4 p-0 shadow bg-posX-center bg-cover bg-no-repeat"
-            style="background-image: url(Assets/bg1.png)">
-            <div class="h-100">
-                <div class="h-100 p-5">
-                    <h1 class="fs-1 w-50">Taking care of what matters</h1>
+
+
+
+
+
+
+        <!-- <section class="hovered vh-100 pb-5 pt-3 px-4" id="main">
+            <div class="container h-100 bg-body-secondary rounded-4 p-0 shadow bg-posX-center bg-posY-top bg-cover bg-no-repeat "
+                style="background-image: url(Assets/bg1.png)">
+                <div class="h-100">
+                    <div class="h-100 p-5">
+                        <h1 class="fs-1 w-50">A new financial concept</h1>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+
+        <section class="bg-main vh-50 pb-5 pt-5 px-4 mt-5 border-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-8 mx-auto">
+                        <h3 class="text-center fw-bold fs-1">Your financial well-being is our priority</h3>
+                        <h4 class="text-center"> we accompany you on the journey towards a debt-free life with
+                            personalized
+                            solutions and a healthy approach.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="bg-main vh-50 pb-5 pt-5 px-4 mt-5" id="cards">
+            <div class="container">
+                <div class="row row-gap-5">
+                    <div class="text-center col-12 col-md">
+                        <div class="card bg-body-tertiary shadow border-none w-100 mx-auto">
+                            <img src="./Assets/foto1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-text">Wealth Management</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center col-12 col-md">
+                        <div class="card bg-body-tertiary shadow border-none w-100 mx-auto">
+                            <img src="./Assets/foto2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-text">Fintech Solutions</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center col-12 col-md">
+                        <div class="card bg-body-tertiary shadow border-none w-100 mx-auto">
+                            <img src="./Assets/foto3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-text">Risk Management</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <button type="button" class="btn bg-body-tertiary shadow">
+                        <h5 class="arrow-icon m-2">More Services</h5>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="hovered vh-100 pb-5 pt-5 px-4 mt-5" id="main">
+            <div class="container h-100 bg-custom-pink rounded-4 p-0 shadow bg-posX-center bg-cover bg-no-repeat"
+                style="background-image: url(Assets/bg1.png)">
+                <div class="h-100">
+                    <div class="h-100 p-5">
+                        <h1 class="fs-1 w-50" data-i18n="section1Title">Taking care of what matters</h1>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- END BODY CONTENT -->
+    </div>
 
 
 
 
     <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/main.js" type="module"></script>
 </body>
 
 </html>

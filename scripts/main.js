@@ -11,40 +11,53 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
         docReady.forEach((fn) => {
             fn();
         })
+
+        // Última en cargar
         setPageReady()
     });
 
 
-    // AUTOEJECUTABLES CUANDO CARGA EL DOC    
-    const setLanguage = (newLang = "es") => {
+
+    // CORREN AL CARGAR EL DOC
+    const setLanguage = (newLang = "ES") => {
         selectedLanguage = newLang;
         languageTexts = i18n.texts[selectedLanguage];
     }
     docReady.push(setLanguage);
 
+    const setLangSelect = () => {
+        const languageSelect = document.getElementById("languageSelect");
+        languageSelect.addEventListener("change", (event) => {
+            const newLang = event.target.value;
+            setLanguage(newLang);
+            translateTexts();
+        })
+    }
+    docReady.push(setLangSelect);
+
     const translateTexts = () => {
-        const i18n = document.querySelectorAll(".translatable");
+        // const i18n = document.querySelectorAll(".translatable");
+        const i18n = document.querySelectorAll("[data-i18n]");
         i18n.forEach((element) => {
-            const keyString = element.dataset.i18n;
-            const string = languageTexts[keyString];
-            element.textContent = string;
+            try {
+                const keyString = element.dataset.i18n;
+                const string = languageTexts[keyString];
+                element.textContent = string;
+            } catch {
+            }
         })
     }
     docReady.push(translateTexts);
 
 
-    // SE LLAMAN DESDE DENTRO
+    // SOLO CUANDO SON LLAMADAS
 
     const setPageReady = () => {
-
-        setTimeout(() => {
-
-            const spinner = document.getElementById("spinnerCont");
-            const bodyContent = document.getElementById("bodyContent");
-            spinner.classList.add("d-none");
-            bodyContent.classList.remove("d-none");
-            bodyContent.classList.remove("minimized");
-        }, 2000)
+        const spinner = document.getElementById("spinnerCont");
+        const bodyContent = document.getElementById("bodyContent");
+        spinner.classList.add("d-none");
+        bodyContent.classList.remove("d-none");
+        bodyContent.classList.remove("minimized");
     }
 
 
