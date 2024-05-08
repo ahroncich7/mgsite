@@ -40,7 +40,7 @@
     --bs-navbar-brand-font-size: 24px !important;
     --bs-nav-link-font-size: 20px !important;
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(17, 16, 16, 1)' stroke-linecap='round' stroke-miterlimit='12' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-
+    --light-pink: rgb(234, 209, 210);
 
 }
 
@@ -105,12 +105,16 @@ body *:hover {
 
 .bg-custom-pink {
     /* background-color: #EAD1D2 !important; */
-    background: rgb(234, 209, 210)!important;
-    background: linear-gradient(315deg, rgba(234, 209, 210, 1) 66%, rgba(255, 255, 255, 1) 100%)!important;
+    background: var(--light-pink) !important;
+    background: linear-gradient(315deg, rgba(234, 209, 210, 1) 66%, rgba(255, 255, 255, 1) 100%) !important;
 }
 
 .vh-50 {
     min-height: 50vh;
+}
+
+.vh-100 {
+    min-height: 100vh;
 }
 
 
@@ -139,6 +143,28 @@ body *:hover {
 
 
 /* EFFECTS */
+
+
+.spinner {
+    border: 10px solid var(--bs-gray-100);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-left-color: var(--light-pink);
+
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 .hovered *:hover {
     scale: 0.95 !important;
