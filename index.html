@@ -17,7 +17,7 @@
     </div>
 
     <!-- BODY CONTENT -->
-    <div id="bodyContent" class="d-none">
+    <div id="bodyContent" class="d-none scaleFromCenter">
 
         <header class="sticky-top">
 
@@ -49,19 +49,31 @@
         </header>
 
 
-        <section class="bg-main vh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
-            <div class="container">
-                <div class="row">
 
+        <!-- HOME  -->
+
+        <section class="bg-main pb-5 pt-5 mt-5 border-bottom">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner mx-auto w-100">
+                    <div class="carousel-item active">
+                        <img src="/Assets/foto1.png" class="d-block mx-auto w-50" alt="/Assets/foto1.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Assets/foto2.png" class="d-block mx-auto w-50" alt="/Assets/foto1.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Assets/foto3.png" class="d-block mx-auto w-50" alt="...">
+                    </div>
                 </div>
             </div>
         </section>
 
 
+
         <!-- HIPOTECARIOS -->
 
         <section class="bg-main bg-tra vh-50 pb-5 pt-5 px-4 mt-5 border-bottom">
-            <div class="container">
+            <div class="container" data-animated="fadeInLeft">
                 <div class="row bg-translucent p-2 pt-5">
                     <div class="col-12 col-md mx-auto align-self-center">
                         <h3 class="text-center fw-bold fs-1" data-i18n="section2Title">Your financial well-being is our
@@ -90,7 +102,7 @@
         <!-- PERSONALES -->
 
         <section class="bg-custom-green bg-tra vh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
-            <div class="container h-100 align-content-center">
+            <div class="container h-100 align-content-center" data-animated="fadeInUp">
                 <div class="row p-2 pt-5">
                     <div class="col-12 col-md mx-auto">
                         <h3 class="text-center fw-bold fs-1 text-light" data-i18n="section1Title">Your financial
@@ -111,7 +123,7 @@
         <!-- REFINANCIACIÓN  -->
 
         <section class="pb-5 pt-5 px-4 mt-5 hovered" id="main">
-            <div class="container h-100 bg-custom-pink rounded-4 p-0 shadow bg-posX-center bg-cover bg-no-repeat"
+            <div class="container h-100 bg-custom-pink rounded-4 p-0 shadow bg-posX-center bg-cover bg-no-repeat" data-animated="fadeInRight"
                 style="background-image: url(Assets/bg1.png)">
                 <div class="">
                     <div class="p-5 row vh-75">
@@ -125,11 +137,11 @@
         </section>
 
 
+
         <!-- REFORMAS -->
 
-
         <section class="bg-main bg-tra vh-50 pb-5 pt-5 px-4 mt-5 border-bottom">
-            <div class="container">
+            <div class="container" data-animated="fadeInUp">
                 <div class="row bg-translucent p-2 pt-5">
                     <div class="text-center col-12 col-lg align-self-center hovered position-relative ms-5 mb-5">
                         <div class="card bg-transparent shadow border-none w-100 mx-auto rounded-5">
@@ -154,7 +166,7 @@
 
         <section>
 
-            <div class="container vh-100 align-content-center bg-translucent mt-5">
+            <div class="container vh-100 align-content-center bg-translucent mt-5" data-animated="fadeInRight">
 
                 <h2 class="text-center fw-bold fs-1 w-75 mx-auto my-5" data-i18n="section5Title"></h2>
 
@@ -203,7 +215,7 @@
 
 
         <section class="bg-custom-silver bg-tra vh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
-            <div class="container h-75 align-content-center bg-translucent mt-5 rounded-3 shadow">
+            <div class="container h-75 align-content-center bg-translucent mt-5 rounded-3 shadow" data-animated="fadeInUp">
                 <div class="row p-2 pt-5">
                     <div class="col-12 col-md mx-auto">
                         <h3 class="text-center fw-bold fs-1" data-i18n="section6Title"></h3>
@@ -220,7 +232,7 @@
 
         <section class="bg-dark text-light vh-50 pb-5 pt-5" id="contact">
 
-            <h2 class="text-light fs-1 fw-bold text-center w-100 my-2" >Contáctanos</h2>
+            <h2 class="text-light fs-1 fw-bold text-center w-100 my-2">Contáctanos</h2>
             <div class="container">
                 <div class="p-5">
                     <form class="row w-50 mx-auto">

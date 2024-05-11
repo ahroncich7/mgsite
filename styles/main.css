@@ -145,7 +145,7 @@ body *:hover {
 }
 
 
-.accordion-button:focus{
+.accordion-button:focus {
     box-shadow: none;
 }
 
@@ -167,7 +167,7 @@ body *:hover {
 }
 
 #mainNavBar select option {
-    background-color: rgb(0,0,0,0.1)!important;
+    background-color: rgb(0, 0, 0, 0.1) !important;
     border-radius: 0;
 }
 
@@ -188,8 +188,8 @@ body *:hover {
 
 /* CONTACT */
 
-#contact .form-control{
-    background-color: transparent!important;
+#contact .form-control {
+    background-color: transparent !important;
     border: none;
     border-radius: 0;
     border-bottom: 1px solid;
@@ -201,27 +201,6 @@ body *:hover {
 
 
 /* EFFECTS */
-
-
-.spinner {
-    border: 10px solid var(--bs-gray-100);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border-left-color: var(--light-pink);
-
-    animation: spin 1s ease infinite;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 
 .hovered *:hover {
@@ -247,6 +226,102 @@ h5.arrow-icon::after {
 
 
 
+/* ANIMATIONS */
+
+.spinner {
+    border: 10px solid var(--bs-gray-100);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-left-color: var(--light-pink);
+
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate(0, 40%);
+        transform: translate(0, 40%);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.fadeInUp{
+    animation: fadeInUp 0.5s;
+}
+
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate(40%, 0);
+        transform: translate(40%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.fadeInLeft{
+    animation: fadeInLeft 0.75s ease-in;
+}
+
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate(-40%, 0);
+        transform: translate(-40%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.fadeInRight{
+    animation: fadeInRight 0.75s ease-in;
+}
+
+
+@keyframes scaleFromCenter {
+    from {
+        -webkit-transform: scale(0, 1);
+        transform: scale(0, 1);
+    }
+
+    to {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
+
+.scaleFromCenter{
+    animation: scaleFromCenter 0.25s ease-in;
+}
+
 
 
 
@@ -263,15 +338,15 @@ h5.arrow-icon::after {
 
 /* MD */
 @media (min-width: 992px) {
-    .bg-md-transparent {
+    /* .bg-md-transparent {
         background-color: transparent !important;
-    }
+    } */
 
     .navbar-collapse {
         border-top: none !important
     }
 
-    header .shadow {
+    /* header .shadow {
         box-shadow: none !important;
-    }
+    } */
 }

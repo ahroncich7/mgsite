@@ -12,7 +12,7 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
             fn();
         })
 
-        // Última en cargar
+        //THE LAST ONE TO LOAD
         setPageReady()
     });
 
@@ -35,6 +35,8 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
     }
     docReady.push(setLangSelect);
 
+
+    //TRANSLATIONS
     const translateTexts = () => {
         // const i18n = document.querySelectorAll(".translatable");
         const i18n = document.querySelectorAll("[data-i18n]");
@@ -50,14 +52,48 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
     docReady.push(translateTexts);
 
 
+    //ANIMATIONS
+    const applyAnimations = () => {
+        const observer = new IntersectionObserver(entries => {
+            // Loop over the entries
+            entries.forEach(entry => {
+                // Calculate the threshold (50%)
+                const threshold = 0.25;
+
+                // If the element is visible at least 50%
+                if (entry.isIntersecting && entry.intersectionRatio >= threshold) {
+                    // Add the animation class
+                    const animation = entry.target.dataset.animated;
+                    entry.target.classList.remove('invisible');
+                    entry.target.classList.add(animation);
+                    console.log("enter");
+                }
+            });
+        }, { threshold: 0.5 }); // Set the threshold to 50%
+
+        document.querySelectorAll('[data-animated]').forEach(element => {
+            element.classList.add("invisible");
+            observer.observe(element);
+        });
+    };
+
+    docReady.push(applyAnimations);
+
+
     // SOLO CUANDO SON LLAMADAS
 
+
     const setPageReady = () => {
-        const spinner = document.getElementById("spinnerCont");
-        const bodyContent = document.getElementById("bodyContent");
-        spinner.classList.add("d-none");
-        bodyContent.classList.remove("d-none");
-        bodyContent.classList.remove("minimized");
+
+
+        //SPINNER OFF
+        setTimeout(() => {
+            const spinner = document.getElementById("spinnerCont");
+            const bodyContent = document.getElementById("bodyContent");
+            spinner.classList.add("d-none");
+            bodyContent.classList.remove("d-none");
+            bodyContent.classList.remove("minimized");
+        }, 1000)
     }
 
 
