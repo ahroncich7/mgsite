@@ -123,11 +123,11 @@ body *:hover {
 }
 
 
-.vh-50{
+.vh-50 {
     height: 50vh;
 }
 
-.vh-75{
+.vh-75 {
     height: 75vh;
 }
 
@@ -139,11 +139,15 @@ body *:hover {
     min-height: 75vh;
 }
 
+.max-w-100 {
+    max-width: 100%;
+}
+
 .bg-translucent {
     background-color: rgb(255, 255, 255, 0.8);
 }
 
-.aspect-1{
+.aspect-1 {
     aspect-ratio: 1;
 }
 
@@ -237,7 +241,7 @@ h5.arrow-icon::after {
 
 }
 
-.after-filter::after{
+.after-filter::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -286,7 +290,7 @@ h5.arrow-icon::after {
     }
 }
 
-.fadeInUp{
+.fadeInUp {
     animation: fadeInUp 0.5s;
 }
 
@@ -305,7 +309,7 @@ h5.arrow-icon::after {
     }
 }
 
-.fadeInLeft{
+.fadeInLeft {
     animation: fadeInLeft 0.75s ease-in;
 }
 
@@ -324,7 +328,7 @@ h5.arrow-icon::after {
     }
 }
 
-.fadeInRight{
+.fadeInRight {
     animation: fadeInRight 0.75s ease-in;
 }
 
@@ -341,7 +345,7 @@ h5.arrow-icon::after {
     }
 }
 
-.scaleFromCenter{
+.scaleFromCenter {
     animation: scaleFromCenter 0.25s ease-in;
 }
 
@@ -367,6 +371,10 @@ h5.arrow-icon::after {
 
     .navbar-collapse {
         border-top: none !important
+    }
+
+    .w-md-50 {
+        width: 50% !important
     }
 
     /* header .shadow {
