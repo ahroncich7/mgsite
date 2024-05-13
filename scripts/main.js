@@ -1,8 +1,6 @@
 import i18n from "../Assets/Languages.json" with {type: 'json'};
 
 (() => {
-
-
     var selectedLanguage = "es";
     var languageTexts = {};
     const docReady = [];
@@ -18,7 +16,9 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
 
 
 
-    // CORREN AL CARGAR EL DOC
+    //RUNS WHEN DOC IS READY
+
+
     const setLanguage = (newLang = "ES") => {
         selectedLanguage = newLang;
         languageTexts = i18n.texts[selectedLanguage];
@@ -80,12 +80,8 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
     docReady.push(applyAnimations);
 
 
-    // SOLO CUANDO SON LLAMADAS
-
-
+    //REUSABLES
     const setPageReady = () => {
-
-
         //SPINNER OFF
         setTimeout(() => {
             const spinner = document.getElementById("spinnerCont");
