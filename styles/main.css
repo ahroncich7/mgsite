@@ -295,7 +295,7 @@ h5.arrow-icon::after {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border-left-color: var(--beige);
+    border-left-color: var(--light-green);
 
     animation: spin 1s ease infinite;
 }
