@@ -37,8 +37,8 @@
                             <a class="nav-link text-center active fw-semibold" aria-current="page" data-i18n="home"
                                 href="#home">Home</a>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-center active fw-semibold" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false" data-i18n="services">
+                                <a class="nav-link dropdown-toggle text-center active fw-semibold" href="#"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="services">
                                     Services
                                 </a>
                                 <ul class="dropdown-menu">
@@ -46,10 +46,10 @@
                                             href="#mortgage">Mortgage</a></li>
                                     <li><a class="nav-link text-center fw-semibold" data-i18n="section1Title"
                                             href="#personal">Personal</a></li>
-                                    <li><a class="nav-link text-center fw-semibold" data-i18n="section3Title"
-                                            href="#refinancing">Refinancing</a></li>
                                     <li><a class="nav-link text-center fw-semibold" data-i18n="section4Title"
                                             href="#renovation">Renovation</a></li>
+                                    <li><a class="nav-link text-center fw-semibold" data-i18n="section3Title"
+                                            href="#refinancing">Refinancing</a></li>
                                     <li><a class="nav-link text-center fw-semibold" data-i18n="section8Title"
                                             href="#real-estate">Real Estate</a></li>
                                     <li><a class="nav-link text-center fw-semibold" data-i18n="section6Title"
@@ -85,7 +85,7 @@
 
         <!-- HOME  -->
 
-        <section class="bg-main py-5 px-3 border-bottom d-none d-sm-block" id="home">
+        <section class="bg-main py-5 px-3 d-none d-sm-block" id="home">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner mx-auto w-100 after-filter">
                     <div class="carousel-item  active" data-bs-interval="5000">
@@ -108,8 +108,7 @@
 
         <!-- HIPOTECARIOS -->
 
-        <section id="mortgage" class="bg-main bg-tra mvh-50 pb-5 pt-5 px-4 mt-5 border-bottom" style="background-image: url(./Assets/bgel1.jpg);
-        background-position: -200px;
+        <section id="mortgage" class="bg-main bg-tra mvh-50 pb-5 pt-5 px-4 mt-5" style="background-image: url(./Assets/bgel3.jpg);
         background-size: cover;
         background-repeat: no-repeat;">
             <div class="container" data-animated="fadeInLeft">
@@ -141,8 +140,8 @@
 
         <!-- PERSONALES -->
 
-        <section id="personal" class="bg-custom-green bg-tra mvh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
-            <div class="container h-100 align-content-center" data-animated="fadeInUp">
+        <section id="personal" class="bg-custom-green bg-tra min-vh-100 vh-100 pb-5 pt-5 px-4 ">
+            <div class="container d-flex align-items-center h-100 align-content-center" data-animated="fadeInUp">
                 <div class="row p-2 pt-5">
                     <div class="col-12 col-md mx-auto">
                         <h3 class="text-center fw-bold fs-1 text-light" data-i18n="section1Title">Your financial
@@ -160,27 +159,9 @@
 
 
 
-        <!-- REFINANCIACIÓN  -->
-
-        <section id="refinancing" class="pb-5 pt-5 px-4 mt-5 hovered" id="main">
-            <div class="container h-100 bg-custom-pink rounded-4 p-0 shadow bg-posX-center bg-cover bg-no-repeat"
-                data-animated="fadeInRight" style="background-image: url(Assets/bg1.png)">
-                <div class="">
-                    <div class="p-5 row mvh-75">
-                        <h1 class="fs-1 w-50" data-i18n="section3Title">Taking care of what matters</h1>
-                        <h4 class="text-center col-12" data-i18n="section3MainText"> we accompany you on the journey
-                            towards a debt-free life with personalized
-                            solutions and a healthy approach.</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
         <!-- REFORMAS -->
 
-        <section id="renovation" class="bg-main bg-tra mvh-50 pb-5 pt-5 px-4 mt-5 border-bottom">
+        <section id="renovation" class="bg-main bg-tra mvh-50 pb-5 pt-5 px-4 mt-5 ">
             <div class="container" data-animated="fadeInUp">
                 <div class="row bg-translucent p-2 pt-5">
                     <div class="text-center col-12 col-lg align-self-center hovered position-relative mb-5">
@@ -201,12 +182,28 @@
         </section>
 
 
+        <!-- REFINANCIACIÓN  -->
+
+        <section id="refinancing" class="pb-5 pt-5 px-4 hovered bg-custom-beige" id="main">
+            <div class="container h-100 rounded-4 p-0 bg-translucent shadow bg-posX-center bg-cover bg-no-repeat"
+                data-animated="fadeInRight">
+                <div class="text-center">
+                    <div class="p-5 row mvh-75">
+                        <h1 class="fs-1" data-i18n="section3Title">Taking care of what matters</h1>
+                        <h4 class="text-center col-12" data-i18n="section3MainText"> we accompany you on the journey
+                            towards a debt-free life with personalized
+                            solutions and a healthy approach.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <!-- INMOBILIARIO -->
 
-        <section id="real-estate" style="background-image: url(./Assets/bgel2.jpg);
+        <section id="real-estate" class="vh-100 d-flex align-items-center" style="background-image: url(./Assets/bgel1.jpg);
         background-position: right;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;">
 
             <div class="container mvh-100 align-content-center bg-translucent mt-5" data-animated="fadeInRight">
@@ -257,13 +254,29 @@
         <!-- TASACIONES -->
 
 
-        <section id="appraisals" class="bg-custom-silver bg-tra mvh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
-            <div class="container h-75 align-content-center bg-translucent mt-5 rounded-3 shadow"
-                data-animated="fadeInUp">
-                <div class="row p-2 pt-5">
-                    <div class="col-12 col-md mx-auto">
-                        <h3 class="text-center fw-bold fs-1" data-i18n="section6Title"></h3>
-                        <h4 class="text-center" data-i18n="section6MainText"></h4>
+        <!-- <section id="appraisals" class="bg-custom-green bg-tra mvh-100 vh-100 pb-5 pt-5 px-4 mt-5 ">
+            <div class="container h-100 rounded-4 p-0 bg-translucent shadow bg-posX-center bg-cover bg-no-repeat"
+                data-animated="fadeInRight">
+                <div class="">
+                    <div class="p-5 row mvh-75">
+                        <h1 class="fs-1 w-50" data-i18n="section6Title">Apraisals</h1>
+                        <h4 class="text-center col-12" data-i18n="section6MainText"> we accompany you on the journey
+                            towards a debt-free life with personalized
+                            solutions and a healthy approach.</h4>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="appraisals" class="pb-5 pt-5 px-4 hovered bg-custom-green" id="main">
+            <div class="container h-100 rounded-4 p-0 bg-translucent shadow bg-posX-center bg-cover bg-no-repeat"
+                data-animated="fadeInRight">
+                <div class="text-center">
+                    <div class="p-5 row mvh-75">
+                        <h1 class="fs-1" data-i18n="section6Title">Taking care of what matters</h1>
+                        <h4 class="text-center col-12" data-i18n="section6MainText"> we accompany you on the journey
+                            towards a debt-free life with personalized
+                            solutions and a healthy approach.</h4>
                     </div>
                 </div>
             </div>
@@ -276,7 +289,7 @@
 
         <section id="contact" class="bg-dark text-light mvh-50 pb-5 pt-5" id="contact">
 
-            <h2 class="text-light fs-1 fw-bold text-center w-100 my-2">Contáctanos</h2>
+            <h2 class="text-light fs-1 fw-bold text-center w-100 my-2" data-i18n="contactTitle">Contact us</h2>
             <div class="container">
                 <div class="p-1">
                     <form class="row w-100 w-md-50 mx-auto">
@@ -329,7 +342,7 @@
         </section>
 
 
-        <section class="bg-main mvh-50 pb-5 pt-5 px-4 mt-5 border-bottom">
+        <section class="bg-main mvh-50 pb-5 pt-5 px-4 mt-5 ">
             <div class="container">
                 <div class="row">
                     <div class="col col-lg-8 mx-auto">
@@ -381,7 +394,7 @@
 
 
         <section class="hovered mvh-100 pb-5 pt-5 px-4 mt-5" id="main">
-            <div class="container h-100 bg-custom-pink rounded-4 p-0 shadow bg-posX-center bg-cover bg-no-repeat"
+            <div class="container h-100 bg-custom-beige rounded-4 p-0 shadow bg-posX-center bg-cover bg-no-repeat"
                 style="background-image: url(Assets/bg1.png)">
                 <div class="h-100">
                     <div class="h-100 p-5">
