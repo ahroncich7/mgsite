@@ -1,6 +1,8 @@
 {
     "texts": {
         "ES": {
+            "home": "Home",
+            "services":"Servicios",
             "section1Title": "Préstamos Personales",
             "section1MainText": "Descubre la tranquilidad financiera con nuestros préstamos personales diseñados para brindarte serenidad en tiempos de necesidad. Ya sea que quieras darte un merecido descanso, enfrentar gastos inesperados con calma o dar vida a tus proyectos personales sin agobios, nuestros préstamos personales te ofrecen tasas que te brindarán alivio y plazos que se adaptan a tu ritmo. El proceso de solicitud es simple y rápido, permitiéndote acceder al apoyo que necesitas lo antes posible.",
             "section2Title": "Préstamos Hipotecarios",
@@ -23,9 +25,12 @@
             "section7Title": "Inversiones",
             "section7MainText": "Cultiva tu bienestar financiero a largo plazo a través de la diversificación consciente de tu cartera. Nuestras opciones de inversión están diseñadas para alinearse con tus objetivos y tu sensación de paz. Te brindaremos opciones con orientación para que tomes decisiones financieras desde la serenidad y el equilibrio.",
             "section8Title": "Inmobiliario",
-            "section8MainText": "Descubre la armonía en el mercado inmobiliario, donde las oportunidades se combinan con tu sensación de bienestar. Ya sea que busques comprar, vender o invertir en propiedades, estamos aquí para guiarte. Desde propiedades residenciales hasta comerciales, te brindamos la tranquilidad de tomar decisiones informadas que respalden tu patrimonio."
+            "section8MainText": "Descubre la armonía en el mercado inmobiliario, donde las oportunidades se combinan con tu sensación de bienestar. Ya sea que busques comprar, vender o invertir en propiedades, estamos aquí para guiarte. Desde propiedades residenciales hasta comerciales, te brindamos la tranquilidad de tomar decisiones informadas que respalden tu patrimonio.",
+            "contactTitle":"Contactanos"
         },
         "EN": {
+            "home": "Home",
+            "services":"Services",
             "section1Title": "Personal Loans",
             "section1MainText": "Discover financial peace of mind with our personal loans designed to provide serenity in times of need. Whether you want to take a well-deserved break, face unexpected expenses calmly, or bring your personal projects to life without stress, our personal loans offer rates that will bring relief and terms that adapt to your pace. The application process is simple and fast, allowing you to access the support you need as soon as possible.",
             "section2Title": "Mortgage Loans",
@@ -42,7 +47,7 @@
             "section7Title": "Investments",
             "section7MainText": "Cultivate long-term financial well-being through conscious diversification of your portfolio. Our investment options are designed to align with your goals and sense of peace. We’ll provide guidance so you can make financial decisions from a place of serenity and balance.",
             "section8Title": "Real Estate",
-            "section8MainText": "Discover harmony in the real estate market, where opportunities combine with your sense of well-being. Whether you’re looking to buy, sell, or invest in properties, we’re here to guide you. From residential to commercial properties, we offer the tranquility of making informed decisions that support your legacy."
-        }
+            "section8MainText": "Discover harmony in the real estate market, where opportunities combine with your sense of well-being. Whether you’re looking to buy, sell, or invest in properties, we’re here to guide you. From residential to commercial properties, we offer the tranquility of making informed decisions that support your legacy.",
+            "contactTitle":"Contact us"        }
     }
 }

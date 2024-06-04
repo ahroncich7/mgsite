@@ -166,6 +166,9 @@ body *:hover {
     box-shadow: none;
 }
 
+.dropdown-menu {
+    --bs-dropdown-min-width: 18rem;
+}
 
 
 /* HEADER */

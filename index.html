@@ -34,10 +34,43 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end mt-4 border-top" id="mainNavBar">
                         <div class="navbar-nav">
-                            <a class="nav-link text-center active fw-semibold" aria-current="page" href="#main">Main</a>
-                            <a class="nav-link text-center fw-semibold" href="#">Features</a>
-                            <a class="nav-link text-center fw-semibold" href="#">Pricing</a>
-                            <a class="nav-link text-center fw-semibold" href="#contact">Contact</a>
+                            <a class="nav-link text-center active fw-semibold" aria-current="page" data-i18n="home"
+                                href="#home">Home</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-center active fw-semibold" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" data-i18n="services">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-link text-center fw-semibold" data-i18n="section2Title"
+                                            href="#mortgage">Mortgage</a></li>
+                                    <li><a class="nav-link text-center fw-semibold" data-i18n="section1Title"
+                                            href="#personal">Personal</a></li>
+                                    <li><a class="nav-link text-center fw-semibold" data-i18n="section3Title"
+                                            href="#refinancing">Refinancing</a></li>
+                                    <li><a class="nav-link text-center fw-semibold" data-i18n="section4Title"
+                                            href="#renovation">Renovation</a></li>
+                                    <li><a class="nav-link text-center fw-semibold" data-i18n="section8Title"
+                                            href="#real-estate">Real Estate</a></li>
+                                    <li><a class="nav-link text-center fw-semibold" data-i18n="section6Title"
+                                            href="#appraisals">Appraisals</a></li>
+
+                                </ul>
+                            </li>
+                            <!-- <a class="nav-link text-center fw-semibold" data-i18n="section2Title"
+                                href="#mortgage">Mortgage</a>
+                            <a class="nav-link text-center fw-semibold" data-i18n="section1Title"
+                                href="#personal">Personal</a>
+                            <a class="nav-link text-center fw-semibold" data-i18n="section3Title"
+                                href="#refinancing">Refinancing</a>
+                            <a class="nav-link text-center fw-semibold" data-i18n="section4Title"
+                                href="#renovation">Renovation</a>
+                            <a class="nav-link text-center fw-semibold" data-i18n="section8Title"
+                                href="#real-estate">Real Estate</a>
+                            <a class="nav-link text-center fw-semibold" data-i18n="section6Title"
+                                href="#appraisals">Appraisals</a> -->
+                            <a class="nav-link text-center fw-semibold" data-i18n="contactTitle"
+                                href="#contact">Appraisals</a>
                             <select class="no-style-select text-center fw-semibold" id="languageSelect">
                                 <option class="bg-translucent" selected value="ES">ES</option>
                                 <option class="bg-translucent" value="EN">EN</option>
@@ -52,17 +85,20 @@
 
         <!-- HOME  -->
 
-        <section class="bg-main py-5 px-3 border-bottom d-none d-sm-block">
+        <section class="bg-main py-5 px-3 border-bottom d-none d-sm-block" id="home">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner mx-auto w-100 after-filter">
                     <div class="carousel-item  active" data-bs-interval="5000">
-                        <img src="/Assets/foto1.png" class="border-5  mx-auto vw-100 vh-75 object-fit-cover shadow" alt="/Assets/foto1.png">
+                        <img src="/Assets/foto1.png" class="border-5  mx-auto vw-100 vh-75 object-fit-cover shadow"
+                            alt="/Assets/foto1.png">
                     </div>
                     <div class="carousel-item " data-bs-interval="5000">
-                        <img src="/Assets/foto2.png" class="border-5  mx-auto vw-100 vh-75 object-fit-cover shadow" alt="/Assets/foto1.png">
+                        <img src="/Assets/foto2.png" class="border-5  mx-auto vw-100 vh-75 object-fit-cover shadow"
+                            alt="/Assets/foto1.png">
                     </div>
                     <div class="carousel-item " data-bs-interval="5000">
-                        <img src="/Assets/foto3.png" class="border-5  mx-auto vw-100 vh-75 object-fit-cover shadow" alt="...">
+                        <img src="/Assets/foto3.png" class="border-5  mx-auto vw-100 vh-75 object-fit-cover shadow"
+                            alt="...">
                     </div>
                 </div>
             </div>
@@ -72,7 +108,7 @@
 
         <!-- HIPOTECARIOS -->
 
-        <section class="bg-main bg-tra mvh-50 pb-5 pt-5 px-4 mt-5 border-bottom" style="background-image: url(./Assets/bgel1.jpg);
+        <section id="mortgage" class="bg-main bg-tra mvh-50 pb-5 pt-5 px-4 mt-5 border-bottom" style="background-image: url(./Assets/bgel1.jpg);
         background-position: -200px;
         background-size: cover;
         background-repeat: no-repeat;">
@@ -87,7 +123,8 @@
                             solutions and a healthy approach.</h4>
                     </div>
                     <div class="text-center col-12 align-self-center col-md mb-3 hovered">
-                        <div class="card bg-body-tertiary shadow border-none mx-auto rounded-5 vh-50 max-w-100 aspect-1 bg-cover" style="background-image: url(./Assets/foto3.png)">
+                        <div class="card bg-body-tertiary shadow border-none mx-auto rounded-5 vh-50 max-w-100 aspect-1 bg-cover"
+                            style="background-image: url(./Assets/foto3.png)">
                             <!-- <img src="./Assets/foto3.png" class="card-img-top rounded-5" alt="..."> -->
                         </div>
                     </div>
@@ -104,7 +141,7 @@
 
         <!-- PERSONALES -->
 
-        <section class="bg-custom-green bg-tra mvh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
+        <section id="personal" class="bg-custom-green bg-tra mvh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
             <div class="container h-100 align-content-center" data-animated="fadeInUp">
                 <div class="row p-2 pt-5">
                     <div class="col-12 col-md mx-auto">
@@ -125,9 +162,9 @@
 
         <!-- REFINANCIACIÓN  -->
 
-        <section class="pb-5 pt-5 px-4 mt-5 hovered" id="main">
-            <div class="container h-100 bg-custom-pink rounded-4 p-0 shadow bg-posX-center bg-cover bg-no-repeat" data-animated="fadeInRight"
-                style="background-image: url(Assets/bg1.png)">
+        <section id="refinancing" class="pb-5 pt-5 px-4 mt-5 hovered" id="main">
+            <div class="container h-100 bg-custom-pink rounded-4 p-0 shadow bg-posX-center bg-cover bg-no-repeat"
+                data-animated="fadeInRight" style="background-image: url(Assets/bg1.png)">
                 <div class="">
                     <div class="p-5 row mvh-75">
                         <h1 class="fs-1 w-50" data-i18n="section3Title">Taking care of what matters</h1>
@@ -143,7 +180,7 @@
 
         <!-- REFORMAS -->
 
-        <section class="bg-main bg-tra mvh-50 pb-5 pt-5 px-4 mt-5 border-bottom" >
+        <section id="renovation" class="bg-main bg-tra mvh-50 pb-5 pt-5 px-4 mt-5 border-bottom">
             <div class="container" data-animated="fadeInUp">
                 <div class="row bg-translucent p-2 pt-5">
                     <div class="text-center col-12 col-lg align-self-center hovered position-relative mb-5">
@@ -165,14 +202,14 @@
 
 
 
-        <!-- INMOBILÑIARIO -->
+        <!-- INMOBILIARIO -->
 
-        <section style="background-image: url(./Assets/bgel2.jpg);
+        <section id="real-estate" style="background-image: url(./Assets/bgel2.jpg);
         background-position: right;
         background-size: contain;
         background-repeat: no-repeat;">
 
-            <div class="container mvh-100 align-content-center bg-translucent mt-5" data-animated="fadeInRight" >
+            <div class="container mvh-100 align-content-center bg-translucent mt-5" data-animated="fadeInRight">
 
                 <h2 class="text-center fw-bold fs-1 w-75 mx-auto my-5" data-i18n="section5Title"></h2>
 
@@ -220,8 +257,9 @@
         <!-- TASACIONES -->
 
 
-        <section class="bg-custom-silver bg-tra mvh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
-            <div class="container h-75 align-content-center bg-translucent mt-5 rounded-3 shadow" data-animated="fadeInUp">
+        <section id="appraisals" class="bg-custom-silver bg-tra mvh-100 pb-5 pt-5 px-4 mt-5 border-bottom">
+            <div class="container h-75 align-content-center bg-translucent mt-5 rounded-3 shadow"
+                data-animated="fadeInUp">
                 <div class="row p-2 pt-5">
                     <div class="col-12 col-md mx-auto">
                         <h3 class="text-center fw-bold fs-1" data-i18n="section6Title"></h3>
@@ -236,7 +274,7 @@
 
         <!-- CONTACTO -->
 
-        <section class="bg-dark text-light mvh-50 pb-5 pt-5" id="contact">
+        <section id="contact" class="bg-dark text-light mvh-50 pb-5 pt-5" id="contact">
 
             <h2 class="text-light fs-1 fw-bold text-center w-100 my-2">Contáctanos</h2>
             <div class="container">
