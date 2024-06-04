@@ -197,6 +197,9 @@ h4 {
     font-size: calc(1.15rem + .1vw);
 }
 
+.mb-8{
+    margin-bottom: 4rem!important;
+}
 
 /* HEADER */
 
@@ -231,6 +234,13 @@ h4 {
 .overlapping-card {
     top: 75%;
     left: 0%;
+}
+
+.overlapping-card-reverse {
+
+    top: 75%;
+    left: 65%;
+
 }
 
 .card {
