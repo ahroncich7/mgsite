@@ -35,11 +35,12 @@
 }
 
 
-:root {
+:root,
+body {
     --bs-black-rgb: 0, 0, 0;
     --bs-navbar-brand-font-size: 24px !important;
     --bs-nav-link-font-size: 20px !important;
-    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(17, 16, 16, 1)' stroke-linecap='round' stroke-miterlimit='12' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255)' stroke-linecap='round' stroke-miterlimit='12' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
     --beige: #eaceae;
     --light-beige: #FAF3EB;
     --light-green: #A1C0B1;
@@ -59,7 +60,7 @@ body * {
 }
 
 body *:hover {
-    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(17, 16, 16, 1)' stroke-linecap='round' stroke-miterlimit='12' stroke-width='2' d='M2 8h26M2 22h26'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255)' stroke-linecap='round' stroke-miterlimit='12' stroke-width='2' d='M2 8h26M2 22h26'/%3e%3c/svg%3e");
 
 
 }
@@ -144,8 +145,16 @@ body *:hover {
     max-width: 100%;
 }
 
+.w-35 {
+    width: 35%;
+}
+
 .bg-translucent {
     background-color: rgb(255, 255, 255, 0.8);
+}
+
+.bg-primary {
+    background-color: var(--dark-green) !important;
 }
 
 .aspect-1 {
@@ -171,9 +180,26 @@ body *:hover {
     --bs-dropdown-min-width: 18rem;
 }
 
+.no-wrap {
+    flex-wrap: nowrap !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0px 0px 0px 2px #FFF;
+}
+
+.h4,
+h4 {
+    font-size: calc(1.15rem + .1vw);
+}
+
 
 /* HEADER */
 
+
+.navbar {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255)' stroke-linecap='round' stroke-miterlimit='12' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
 
 #mainNavBar a {
     transition: all 0.5s;
@@ -193,15 +219,20 @@ body *:hover {
 }
 
 
-
-
+/* HOME */
 
 
 /* CARDS */
 
 .overlapping-card {
-    top: 60%;
-    left: -5%
+    top: 75%;
+    left: 0%;
+}
+
+.card {
+    aspect-ratio: 1;
+    overflow: hidden;
+    max-width: 80%;
 }
 
 

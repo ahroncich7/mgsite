@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/png" href="./Assets/favicon.ico">
 
     <title>MG SITE</title>
 </head>
 
-<body class="bg-cover" style="background-image: url(Assets/bg7)">
+<body class="bg-cover" style="background-image: url(./Assets/bg7)">
 
     <div class="w-100 mvh-100 d-flex justify-content-center align-items-center" id="spinnerCont">
         <div class="spinner"></div>
@@ -21,11 +22,12 @@
 
         <header class="sticky-top">
 
-            <nav class="navbar navbar-expand-lg bg-md-transparent px-4 bg-white shadow">
-                <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-custom-green px-4 py-1 bg-white shadow">
+                <div class="container-fluid justify-content-center gap-3">
                     <div>
-
-                        <a class="navbar-brand fw-bold" href="#">Magda Site</a>
+                        <a class="navbar-brand fw-bold" href="#">
+                            <img style="max-height: 80px;" class="img-fluid" src="./Assets/perfil3.png" alt="">
+                        </a>
                     </div>
                     <button class="navbar-toggler border-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false"
@@ -34,10 +36,10 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end mt-4 border-top" id="mainNavBar">
                         <div class="navbar-nav">
-                            <a class="nav-link text-center active fw-semibold" aria-current="page" data-i18n="home"
-                                href="#home">Home</a>
+                            <a class="nav-link text-center active fw-semibold text-white" aria-current="page"
+                                data-i18n="home" href="#home">Home</a>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-center active fw-semibold" href="#"
+                                <a class="nav-link dropdown-toggle text-center active fw-semibold text-white" href="#"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="services">
                                     Services
                                 </a>
@@ -69,9 +71,9 @@
                                 href="#real-estate">Real Estate</a>
                             <a class="nav-link text-center fw-semibold" data-i18n="section6Title"
                                 href="#appraisals">Appraisals</a> -->
-                            <a class="nav-link text-center fw-semibold" data-i18n="contactTitle"
+                            <a class="nav-link text-center fw-semibold text-white" data-i18n="contactTitle"
                                 href="#contact">Appraisals</a>
-                            <select class="no-style-select text-center fw-semibold" id="languageSelect">
+                            <select class="no-style-select text-center fw-semibold text-white" id="languageSelect">
                                 <option class="bg-translucent" selected value="ES">ES</option>
                                 <option class="bg-translucent" value="EN">EN</option>
                             </select>
@@ -85,20 +87,22 @@
 
         <!-- HOME  -->
 
-        <section class="bg-main py-5 px-3 d-none d-sm-block" id="home">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner mx-auto w-100 after-filter">
-                    <div class="carousel-item  active" data-bs-interval="5000">
-                        <img src="/Assets/foto1.png" class="border-5  mx-auto vw-100 vh-75 object-fit-cover shadow"
-                            alt="/Assets/foto1.png">
-                    </div>
-                    <div class="carousel-item " data-bs-interval="5000">
-                        <img src="/Assets/foto2.png" class="border-5  mx-auto vw-100 vh-75 object-fit-cover shadow"
-                            alt="/Assets/foto1.png">
-                    </div>
-                    <div class="carousel-item " data-bs-interval="5000">
-                        <img src="/Assets/foto3.png" class="border-5  mx-auto vw-100 vh-75 object-fit-cover shadow"
-                            alt="...">
+        <section class="bg-main" id="home">
+            <div class="w-100">
+                <div id="carousel" class="carousel slide w-100 h-100" data-bs-ride="carousel">
+                    <div class="carousel-inner mx-auto w-100 after-filter">
+                        <div class="carousel-item w-100  active" data-bs-interval="5000">
+                            <img src="/Assets/portada1.png" class="border-5  mx-auto vw-100 object-fit-cover shadow"
+                                alt="/Assets/foto1.png">
+                        </div>
+                        <div class="carousel-item w-100 " data-bs-interval="5000">
+                            <img src="/Assets/portada1.png" class="border-5  mx-auto vw-100 object-fit-cover shadow"
+                                alt="/Assets/foto1.png">
+                        </div>
+                        <div class="carousel-item w-100 " data-bs-interval="5000">
+                            <img src="/Assets/portada1.png" class="border-5  mx-auto vw-100 object-fit-cover shadow"
+                                alt="...">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,22 +120,28 @@
                     <div class="col-12 col-md mx-auto align-self-center mb-3">
                         <h3 class="text-center fw-bold fs-1" data-i18n="section2Title">Your financial well-being is our
                             priority</h3>
-                        <h4 class="text-center" data-i18n="section2MainText"> we accompany you on the journey towards a
+                        <p class="text-start text-sm-center h4" data-i18n="section2MainText"> we accompany you on the journey towards a
                             debt-free life with
                             personalized
-                            solutions and a healthy approach.</h4>
+                            solutions and a healthy approach.</p>
+                        <p class="text-start text-sm-center h4" data-i18n="section2MainText"> we accompany you on the journey towards a
+                            debt-free life with
+                            personalized
+                            solutions and a healthy approach.</p>
                     </div>
-                    <div class="text-center col-12 align-self-center col-md mb-3 hovered">
-                        <div class="card bg-body-tertiary shadow border-none mx-auto rounded-5 vh-50 max-w-100 aspect-1 bg-cover"
-                            style="background-image: url(./Assets/foto3.png)">
-                            <!-- <img src="./Assets/foto3.png" class="card-img-top rounded-5" alt="..."> -->
+                    <div class="text-center col-12 col-lg align-self-center hovered position-relative mb-5">
+                        <div class="card bg-transparent shadow border-none w-100 mx-auto rounded-5">
+                            <img src="./Assets/foto3.jpg" class="card-img-top rounded-5" alt="...">
+                        </div>
+                        <div
+                            class="bg-transparent shadow border-none w-35 mx-auto rounded-5 position-absolute overlapping-card d-none d-sm-block">
+                            <img src="./Assets/foto3.png" class="card-img-top rounded-5" alt="...">
                         </div>
                     </div>
-                    <div class="col-12 mx-auto mt-4">
-                        <h4 class="text-center" data-i18n="section2MainText"> we accompany you on the journey towards a
-                            debt-free life with
-                            personalized
-                            solutions and a healthy approach.</h4>
+                    <div class="btn-container text-center">
+                        <a target="_blank"
+                            href="https://api.whatsapp.com/send/?phone=5493517031293&text=Hola%21+Quiero+necesito+hacer+una+consulta"><button
+                                class="btn bg-primary btn-lg text-white mx-auto my-5">Ver mas</button></a>
                     </div>
                 </div>
             </div>
