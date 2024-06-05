@@ -166,6 +166,11 @@ body *:hover {
     background-position-y: y-end;
 }
 
+
+.scale-1 {
+    scale: 1.1;
+}
+
 .vh-50 {
     height: 50vh;
 }
@@ -272,6 +277,23 @@ h4 {
 
 
 /* HOME */
+
+#home .whatsapp-link {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#home .whatsapp-link button {
+    font-size: calc(0.8rem + .9vw) !important;
+}
+
+#home .whatsapp-link button:hover {
+    background-color: var(--light-beige);
+    color: var(--bs-gray)!important;
+}
 
 
 /* CARDS */
@@ -609,5 +631,13 @@ footer .social {
 
     .mw-40 {
         max-width: 40% !important;
+    }
+}
+
+/* SM */
+@media (min-width: 768px) {
+
+    #home .whatsapp-link button {
+        font-size: 2rem !important;
     }
 }
