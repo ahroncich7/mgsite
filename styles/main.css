@@ -337,6 +337,21 @@ header .social * {
     margin-right: 1rem;
 }
 
+.hb {
+    border-top: solid white 3px;
+    transform: translate(0, -50%);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hb.primary {
+    border-color: var(--dark-green);
+}
+
+.hb.secondary {
+    border-color: var(--beige);
+}
+
 header .social a {
     white-space: nowrap;
 }
