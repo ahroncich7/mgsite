@@ -101,8 +101,8 @@ body *:hover {
     background-position-y: top
 }
 
-.bg-gray-100{
-    background-color: var(--bs-gray-100)!important;
+.bg-gray-100 {
+    background-color: var(--bs-gray-100) !important;
 }
 
 .fs-1 {
@@ -137,6 +137,25 @@ body *:hover {
     background: linear-gradient(315deg, var(--silver) 66%, var(--bs-white) 100%) !important;
 }
 
+
+.bgel1 {
+    background-image: url("../Assets/bgel1.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgel3 {
+    background-image: url("../Assets/bgel3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgel5 {
+    background-image: url("../Assets/bgel5.jpg");
+    background-size: cover;
+    background-position-y: y-end;
+}
 
 .vh-50 {
     height: 50vh;
@@ -321,6 +340,10 @@ h5.arrow-icon::after {
 
 /* CAROUSEL REVIEWS */
 
+#carouselReview {
+    max-width: 500px;
+}
+
 #carouselReview .carousel-indicators [data-bs-target] {
     background-color: black !important;
 }
@@ -408,7 +431,7 @@ h5.arrow-icon::after {
 /* FOOTER */
 
 footer * {
-    color: var(--bs-white)!important;
+    color: var(--bs-white) !important;
 }
 
 footer .text2Footer {
@@ -418,7 +441,7 @@ footer .text2Footer {
     margin-bottom: 20px
 }
 
-footer .social{
+footer .social {
     /* height: 30px; */
 }
 
