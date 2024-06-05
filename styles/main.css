@@ -45,7 +45,7 @@ body {
     --light-beige: #FAF3EB;
     --light-green: #8AA086;
     --dark-green: #385346;
-    --dark-green-op: rgb(56,83,70, 0.8);
+    --dark-green-op: rgb(56, 83, 70, 0.8);
     --silver: #C0C0C0;
 
 }
@@ -251,7 +251,7 @@ h4 {
 .card {
     aspect-ratio: 1;
     overflow: hidden;
-    max-width: 80%;
+    /* max-width: 80%; */
 }
 
 
@@ -506,7 +506,7 @@ h5.arrow-icon::after {
         width: 50% !important
     }
 
-    /* header .shadow {
-        box-shadow: none !important;
-    } */
+    .mw-40 {
+        max-width: 40% !important;
+    }
 }
