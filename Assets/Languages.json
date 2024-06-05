@@ -1,6 +1,7 @@
 {
     "texts": {
         "ES": {
+            "langTag":"ES",
             "home": "Home",
             "services": "Servicios",
             "section1Title": "Préstamos Personales",
@@ -42,6 +43,7 @@
             "visionText": "Nuestra visión es ser la referencia líder en consultoría financiera, redefiniendo cómo las personas perciben y manejan sus finanzas. Aspiramos a un entorno donde cada cliente se sienta valorado y apoyado, logrando la tranquilidad y seguridad financiera como una realidad accesible para todos."
         },
         "EN": {
+            "langTag":"EN",
             "home": "Home",
             "services": "Services",
             "section1Title": "Personal Loans",

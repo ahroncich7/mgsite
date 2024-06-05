@@ -26,11 +26,13 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
     docReady.push(setLanguage);
 
     const setLangSelect = () => {
-        const languageSelect = document.getElementById("languageSelect");
-        languageSelect.addEventListener("change", (event) => {
-            const newLang = event.target.value;
-            setLanguage(newLang);
-            translateTexts();
+        const languageSelectOptions = document.querySelectorAll("#languageSelect li");
+        languageSelectOptions.forEach((option) => {
+            option.addEventListener("click", (event) => {
+                const newLang = event.target.dataset.value;
+                setLanguage(newLang);
+                translateTexts();
+            })
         })
     }
     docReady.push(setLangSelect);

@@ -193,8 +193,12 @@ body *:hover {
     box-shadow: none;
 }
 
-.dropdown-menu {
+#services-dropdown .dropdown-menu {
     --bs-dropdown-min-width: 18rem;
+}
+
+#language-dropdown .dropdown-menu {
+    --bs-dropdown-min-width: 3rem;
 }
 
 .no-wrap {
