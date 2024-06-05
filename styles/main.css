@@ -45,6 +45,7 @@ body {
     --light-beige: #FAF3EB;
     --light-green: #8AA086;
     --dark-green: #385346;
+    --dark-green-op: rgb(56,83,70, 0.8);
     --silver: #C0C0C0;
 
 }
@@ -116,6 +117,10 @@ body *:hover {
 
 .bg-custom-green {
     background-color: var(--dark-green) !important;
+}
+
+.bg-custom-green-op {
+    background-color: var(--dark-green-op) !important;
 }
 
 .bg-custom-green-gradient {
@@ -197,8 +202,8 @@ h4 {
     font-size: calc(1.15rem + .1vw);
 }
 
-.mb-8{
-    margin-bottom: 4rem!important;
+.mb-8 {
+    margin-bottom: 4rem !important;
 }
 
 /* HEADER */
