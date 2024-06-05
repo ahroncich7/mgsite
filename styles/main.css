@@ -276,7 +276,28 @@ h4 {
 }
 
 
+header .social {
+    max-width: 300px;
+}
+
+header .social * {
+    color: white !important;
+}
+
+.vb {
+    border-left: solid white 1px;
+    transform: translate(-50%, 0);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+header .social a {
+    white-space: nowrap;
+}
+
+
 /* HOME */
+
 
 #home .whatsapp-link {
     position: absolute;
@@ -292,7 +313,7 @@ h4 {
 
 #home .whatsapp-link button:hover {
     background-color: var(--light-beige);
-    color: var(--bs-gray)!important;
+    color: var(--bs-gray) !important;
 }
 
 
