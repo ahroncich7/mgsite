@@ -101,6 +101,10 @@ body *:hover {
     background-position-y: top
 }
 
+.bg-gray-100{
+    background-color: var(--bs-gray-100)!important;
+}
+
 .fs-1 {
     font-size: calc(1.66rem + 1.5vw) !important;
 }
@@ -413,9 +417,6 @@ footer .text2Footer {
 footer .social{
     /* height: 30px; */
 }
-
-
-
 
 
 

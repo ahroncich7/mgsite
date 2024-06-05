@@ -29,7 +29,17 @@
             "section8Title": "Nosotros",
             "section8MainText": "En Finance Wellness, somos más que una consultora financiera; somos tu aliado para alcanzar la tranquilidad financiera. Nuestra misión es brindarte paz y claridad en tus decisiones económicas, combinando el rigor y la precisión de las finanzas con un enfoque en el bienestar personal. Nos especializamos en ofrecer soluciones financieras personalizadas, que incluyen hipotecas, préstamos personales, tasaciones, inversiones, refinanciaciones y reformas, todo con el objetivo de ayudarte a alcanzar tus metas con confianza y sin estrés. En Finance Wellness, creemos que la verdadera libertad financiera se logra cuando tus decisiones se toman con tranquilidad y seguridad.",
             "contactTitle": "Contactanos",
-            "contact-button1": "Contactar ahora"
+            "contact-button1": "Contactar ahora",
+            "reviewTitle": "Reseñas",
+            "review1Text": "\"Solicité un préstamo personal y obtuve respuesta en menos de 24 horas. Muy satisfecho.\"",
+            "review2Text": "\"La tasación fue precisa y profesional. Servicio muy recomendable.\"",
+            "review3Text": "\"El proceso de hipoteca fue claro y transparente. Recomendado.\"",
+            "review4Text": "\"Muy buen asesoramiento inmobiliario. Me ayudaron a encontrar la casa ideal.\"",
+            "review5Text": "\"La reforma fue rápida y de calidad. Buena atención al cliente.\"",
+            "mission": "Misión",
+            "missionText": "En Finance Wellness, nuestra misión es empoderarte para alcanzar la tranquilidad financiera mediante asesoramiento personalizado y estrategias efectivas. Transformamos la experiencia financiera en una jornada libre de estrés, ayudándote a tomar decisiones informadas y seguras para tu futuro económico.",
+            "vision": "Visión",
+            "visionText": "Nuestra visión es ser la referencia líder en consultoría financiera, redefiniendo cómo las personas perciben y manejan sus finanzas. Aspiramos a un entorno donde cada cliente se sienta valorado y apoyado, logrando la tranquilidad y seguridad financiera como una realidad accesible para todos."
         },
         "EN": {
             "home": "Home",
@@ -44,9 +54,15 @@
             "section3MainTextb": "Whether restructuring your current mortgage, consolidating debts, or adjusting your loans for greater peace of mind, a team of experts will work harmoniously with you to find solutions that allow you to regain serenity and achieve your goals.",
             "section4Title": "Home Renovations",
             "section4MainText": "Give your home a fresh style with our home renovation loans, designed to reflect your inner peace. We understand how important your home is as a refuge, and our renovation loans provide you with the resources to carry out improvements without stress. With flexible terms and rates that bring you tranquility, we accompany you through the process so you can enjoy your space in harmony.",
-            "section5Title": "Real Estate - We Help You Find Your Home",
+            "section5Title": "Real Estate Advice",
+            "section5Subtitle1": "I need help to buy",
             "section5SubTitleMain": "We help you get your home.",
-            "section5MainText": "Discover your space of serenity with the assistance of our real estate experts who deeply understand your needs. Our goal is to guide you through this search in a relaxed and pressure-free manner. From exploring options to the negotiation stage, we provide emotional support so you can make informed decisions with complete calmness and enjoy your new home serenely.",
+            "section5SubText1": "Find your space of serenity with the help of our real estate experts who deeply understand your needs.",
+            "section5MainText": "Find your space of serenity with the help of our real estate experts who deeply understand your needs. Our goal is to accompany you on this search in a relaxed and pressure-free manner. From exploring options to the negotiation stage, we provide emotional support so you can make informed decisions with complete calm and enjoy your new home with serenity.",
+            "section5Subtitle2": "I need help choosing my home",
+            "section5SubText2": "Our goal is to accompany you on this search in a relaxed and pressure-free manner.",
+            "section5Subtitle3": "I need advice.",
+            "section5SubText3": "From exploring options to the negotiation stage, we provide emotional support so you can make informed decisions with complete calm and enjoy your new home with serenity.",
             "section6Title": "Appraisals",
             "section6MainText": "Make informed financial decisions from a place of inner peace through our appraisal services. Obtain detailed and reliable evaluations backed by professionals who understand the value of tranquility in your choices. Whether you’re buying, selling, or refinancing, our appraisals provide the certainty you need to move forward in balance.",
             "section7Title": "Investments",
@@ -54,7 +70,17 @@
             "section8Title": "About",
             "section8MainText": "At Finance Wellness, we are more than a financial consultancy; we are your ally to achieve financial peace of mind. Our mission is to provide you with peace and clarity in your financial decisions, combining the rigor and precision of finances with a focus on personal well-being. We specialize in offering personalized financial solutions, including mortgages, personal loans, appraisals, investments, refinancing and renovations, all with the goal of helping you achieve your goals with confidence and without stress. True financial freedom is achieved when your decisions are made with peace of mind and security.",
             "contactTitle": "Contact us",
-            "contact-button1": "Contact now"
+            "contact-button1": "Contact now",
+            "reviewTitle": "Reviews",
+            "review1Text": "\"I applied for a personal loan and got a response in less than 24 hours. Very satisfied.\"",
+            "review2Text": "\"The appraisal was accurate and professional. Highly recommended service.\"",
+            "review3Text": "\"The mortgage process was clear and transparent. Recommended.\"",
+            "review4Text": "\"Very good real estate advice. They helped me find the ideal house.\"",
+            "review5Text": "\"The renovation was quick and of high quality. Good customer service.\"",
+            "mission": "Mission",
+            "missionText": "At Finance Wellness, our mission is to empower you to achieve financial tranquility through personalized advice and effective strategies. We transform the financial experience into a stress-free journey, helping you make informed and secure decisions for your economic future.",
+            "vision": "Vision",
+            "visionText": "Our vision is to be the leading reference in financial consulting, redefining how people perceive and manage their finances. We aspire to an environment where every client feels valued and supported, achieving financial tranquility and security as an accessible reality for everyone."
         }
     }
 }
