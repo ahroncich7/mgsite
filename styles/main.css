@@ -207,6 +207,10 @@ body *:hover {
     background-color: var(--dark-green) !important;
 }
 
+.bg-secondary-color {
+    background-color: var(--beige) !important;
+}
+
 .aspect-1 {
     aspect-ratio: 1;
 }
