@@ -264,7 +264,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 40px;
+    bottom: 80px;
     right: 15px;
     min-width: 60px;
     height: 60px;
@@ -386,6 +386,10 @@ header .social a {
 
 #contact .form-control:focus {
     box-shadow: var(--beige);
+}
+
+.formpreview{
+    background-color: transparent!important;
 }
 
 
