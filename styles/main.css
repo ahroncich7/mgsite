@@ -44,6 +44,7 @@ body {
     --beige: #eaceae;
     --light-beige: #FAF3EB;
     --light-green: #8AA086;
+    --light-green-rgb: 138, 160, 134;
     --dark-green: #385346;
     --dark-green-op: rgb(56, 83, 70, 0.8);
     --silver: #C0C0C0;
@@ -103,6 +104,14 @@ body *:hover {
 
 .bg-gray-100 {
     background-color: var(--bs-gray-100) !important;
+}
+
+.bg-gray {
+    background-color: var(--bs-gray) !important;
+}
+
+.bg-light-green {
+    background-color: var(--light-green) !important;
 }
 
 .fs-1 {
@@ -392,7 +401,7 @@ h5.arrow-icon::after {
 
 .brand-slider::before,
 .brand-slider::after {
-    background: linear-gradient(to right, rgba(var(--bs-dark-rgb)) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(var(--light-green-rgb)) 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
     height: 100%;
     position: absolute;
