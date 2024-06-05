@@ -22,7 +22,7 @@
 
     <!-- BODY CONTENT -->
 
-    <div id="bodyContent" class="d-none scaleFromCenter">
+    <div id="bodyContent" class="invisible scaleFromCenter">
 
 
         <!-- WHATS APP ICON -->
@@ -449,7 +449,109 @@
         <!-- RESEÑAS -->
 
         <section id="reviews" class="pb-5 pt-5 px-4 bg-gray-100">
-            <h3 class="text-center fw-bold fs-1" data-i18n="reviewTitle">Your financial well-being is our
+            <h3 class="text-center fw-bold fs-1 text-primary-color" data-i18n="reviewTitle">Your financial well-being is our
+                priority</h3>
+            <div id="carouselReview" class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="m-3">
+                            <div class="card bg-transparent shadow border-none w-100 mx-auto rounded-5">
+                                <div class="bg-white h-100 p-2 pb-3 p-sm-5 d-flex flex-column">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center mb-2">
+                                        <div class="review-thumbnail thumbnail-1 me-2 mb-2"></div>
+                                        <h4>José Martínez</h4>
+                                    </div>
+                                    <h6><span class="fw-bold" data-i18n="section1Title">Préstamo Personal</span>
+                                        <span class="badge bg-primary text-white">4★</span>
+                                    </h6>
+                                    <p class="fst-italic text-center" data-i18n="review1Text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="m-3">
+                            <div class="card bg-transparent shadow border-none w-100 mx-auto rounded-5">
+                                <div class="bg-white h-100 p-2 pb-3 p-sm-5 d-flex flex-column">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center mb-2">
+                                        <div class="review-thumbnail thumbnail-2 me-2 mb-2"></div>
+                                        <h4>Ana López</h4>
+                                    </div>
+                                    <h6><span class="fw-bold" data-i18n="section6Title">Tasación</span> <span
+                                            class="badge bg-primary text-white">5★</span></h6>
+                                    <p class="fst-italic text-center" data-i18n="review2Text">"La tasación fue
+                                        precisa y profesional.
+                                        Servicio muy recomendable."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="m-3">
+                            <div class="card bg-transparent shadow border-none w-100 mx-auto rounded-5">
+                                <div class="bg-white h-100 p-2 pb-3 p-sm-5 d-flex flex-column">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center mb-2">
+                                        <div class="review-thumbnail thumbnail-3 me-2 mb-2"></div>
+                                        <h4>Javier Rodríguez</h4>
+                                    </div>
+                                    <h6><span class="fw-bold" data-i18n="section2Title">Hipoteca</span> <span
+                                            class="badge bg-primary text-white"> 5★</span></h6>
+                                    <p class="fst-italic text-center" data-i18n="review3Text">"El proceso de
+                                        hipoteca fue claro y
+                                        transparente. Recomendado."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="m-3">
+                            <div class="card bg-transparent shadow border-none w-100 mx-auto rounded-5">
+                                <div class="bg-white h-100 p-2 pb-3 p-sm-5 d-flex flex-column">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center mb-2">
+                                        <div class="review-thumbnail thumbnail-4 me-2 mb-2"></div>
+                                        <h4>Luis Hernández</h4>
+                                    </div>
+                                    <h6><span class="fw-bold" data-i18n="section5Title">Asesoramiento
+                                            Inmobiliario</span> <span class="badge bg-primary text-white">4★</span>
+                                    </h6>
+                                    <p class="fst-italic text-center" data-i18n="review4Text">"Muy buen
+                                        asesoramiento inmobiliario. Me
+                                        ayudaron a encontrar la casa ideal."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="m-3">
+                            <div class="card bg-transparent shadow border-none w-100 mx-auto rounded-5">
+                                <div class="bg-white h-100 p-2 pb-3 p-sm-5 d-flex flex-column">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center mb-2">
+                                        <div class="review-thumbnail thumbnail-5 me-2 mb-2"></div>
+                                        <h4>Saara Morales</h4>
+                                    </div>
+                                    <h6><span class="fw-bold" data-i18n="section4Title">Asesoramiento
+                                            Inmobiliario</span> <span class="badge bg-primary text-white">5★</span>
+                                    </h6>
+                                    <p class="fst-italic text-center" data-i18n="review5Text">"Muy buen
+                                        asesoramiento inmobiliario. Me
+                                        ayudaron a encontrar la casa ideal."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button text-primary class="carousel-control-prev" type="button" data-bs-target="#carouselReview"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button text-primary class="carousel-control-next" type="button" data-bs-target="#carouselReview"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- <h3 class="text-center fw-bold fs-1" data-i18n="reviewTitle">Your financial well-being is our
                 priority</h3>
             <div class="container rounded-5 py-3 bg-posX-center" data-animated="fadeInUp">
                 <div id="carouselReview" class="carousel slide mx-auto" data-bs-ride="carousel">
@@ -554,7 +656,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
 
 
@@ -701,6 +803,10 @@
 
 
 
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <script src="scripts/bootstrap.bundle.min.js"></script>
     <script src="scripts/main.js" type="module"></script>

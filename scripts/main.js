@@ -9,7 +9,6 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
         docReady.forEach((fn) => {
             fn();
         })
-
         //THE LAST ONE TO LOAD
         setPageReady()
     });
@@ -24,6 +23,48 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
         languageTexts = i18n.texts[selectedLanguage];
     }
     docReady.push(setLanguage);
+
+
+
+
+
+
+    const setReviewsFunc = () => {
+        var multipleCardCarousel = document.querySelector(
+            "#carouselReview"
+        );
+        if (window.matchMedia("(min-width: 768px)").matches) {
+            var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+                interval: false,
+            });
+            var carouselWidth = $("#reviews .carousel-inner")[0].scrollWidth;
+            var cardWidth = $("#reviews .carousel-item").width();
+            var scrollPosition = 0;
+            $("#carouselReview .carousel-control-next").on("click", function () {
+                console.log(cardWidth)
+                if (scrollPosition < carouselWidth - cardWidth * 2) {
+                    scrollPosition += cardWidth;
+                    $("#carouselReview .carousel-inner").animate(
+                        { scrollLeft: scrollPosition },
+                        600
+                    );
+                }
+            });
+            $("#carouselReview .carousel-control-prev").on("click", function () {
+                if (scrollPosition > 0) {
+                    scrollPosition -= cardWidth;
+                    $("#carouselReview .carousel-inner").animate(
+                        { scrollLeft: scrollPosition },
+                        600
+                    );
+                }
+            });
+        } else {
+            $(multipleCardCarousel).addClass("slide");
+        }
+    }
+    docReady.push(setReviewsFunc);
+
 
     const setLangSelect = () => {
         const languageSelectOptions = document.querySelectorAll("#languageSelect li");
@@ -89,7 +130,7 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
             const spinner = document.getElementById("spinnerCont");
             const bodyContent = document.getElementById("bodyContent");
             spinner.classList.add("d-none");
-            bodyContent.classList.remove("d-none");
+            bodyContent.classList.remove("invisible");
             bodyContent.classList.remove("minimized");
         }, 1000)
     }

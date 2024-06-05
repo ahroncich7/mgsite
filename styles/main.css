@@ -256,6 +256,14 @@ h4 {
     margin-bottom: 4rem !important;
 }
 
+.text-primary-color{
+    color: var(--dark-green)!important;
+}
+
+.text-secondary-color{
+    color: var(--beige)!important;
+}
+
 
 /* WHATSAPP ICON */
 
@@ -273,7 +281,7 @@ h4 {
     border-radius: 30px;
     transition: all 1s;
     background-color: var(--whatsapp-color);
-    z-index: 9999999!important;
+    z-index: 9999999 !important;
 }
 
 .whatsapp-fixed-icon i {
@@ -282,7 +290,7 @@ h4 {
 
 .whatsapp-fixed-icon:hover h5 {
     display: block !important;
-    margin-bottom: 5px!important;
+    margin-bottom: 5px !important;
 }
 
 
@@ -388,8 +396,8 @@ header .social a {
     box-shadow: var(--beige);
 }
 
-.formpreview{
-    background-color: transparent!important;
+.formpreview {
+    background-color: transparent !important;
 }
 
 
@@ -431,14 +439,86 @@ h5.arrow-icon::after {
 
 /* CAROUSEL REVIEWS */
 
-#carouselReview {
-    max-width: 500px;
+
+/* borrar */
+
+
+#reviews .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
 }
 
+#reviews .carousel-control-prev,
+#reviews .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    #reviews .carousel-item {
+        margin-right: 0;
+        flex: 0 0 50%;
+        display: block;
+    }
+
+    #reviews .carousel-inner {
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    #reviews .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333333%;
+        display: block;
+    }
+
+    #reviews .carousel-inner {
+        display: flex;
+    }
+}
+
+#reviews .card .img-wrapper {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reviews .card img {
+    max-height: 100%;
+}
+
+/* 
+@media (max-width: 767px) {
+    #reviews .card .img-wrapper {
+        height: 17em;
+    }
+} */
+
+/* borrar */
+
+
+
+
+
+
+
+
+
+/* #carouselReview {
+    max-width: 500px;
+} */
+/* 
 #carouselReview .carousel-indicators [data-bs-target] {
     background-color: black !important;
 }
-
+*/
 #carouselReview .card {
     aspect-ratio: inherit;
 }
