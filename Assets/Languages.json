@@ -2,6 +2,7 @@
     "texts": {
         "ES": {
             "langTag":"ES",
+            "chat":"Chatear",
             "home": "Home",
             "services": "Servicios",
             "section1Title": "Préstamos Personales",
@@ -47,6 +48,7 @@
         },
         "EN": {
             "langTag":"EN",
+            "chat":"Chat",
             "home": "Home",
             "services": "Services",
             "section1Title": "Personal Loans",

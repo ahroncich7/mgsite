@@ -47,6 +47,7 @@ body {
     --light-green-rgb: 138, 160, 134;
     --dark-green: #385346;
     --dark-green-op: rgb(56, 83, 70, 0.8);
+    --whatsapp-color: #00D55F;
     --silver: #C0C0C0;
 
 }
@@ -254,6 +255,36 @@ h4 {
 .mb-8 {
     margin-bottom: 4rem !important;
 }
+
+
+/* WHATSAPP ICON */
+
+.whatsapp-fixed-icon {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 40px;
+    right: 15px;
+    min-width: 60px;
+    height: 60px;
+    padding: 15px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    transition: all 1s;
+    background-color: var(--whatsapp-color);
+    z-index: 9999999!important;
+}
+
+.whatsapp-fixed-icon i {
+    transform: translate(0, 0.3rem);
+}
+
+.whatsapp-fixed-icon:hover h5 {
+    display: block !important;
+    margin-bottom: 5px!important;
+}
+
 
 /* HEADER */
 
