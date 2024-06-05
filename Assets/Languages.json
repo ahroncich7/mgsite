@@ -26,7 +26,8 @@
             "section6MainText": "Toma decisiones financieras informadas desde un lugar de paz interior a través de nuestros servicios de tasación. Obtén evaluaciones detalladas y confiables respaldadas por profesionales que entienden el valor de la tranquilidad en tus elecciones. Ya sea que estés comprando, vendiendo o refinanciando, nuestras tasaciones te brindan la certeza que necesitas para seguir adelante en equilibrio.",
             "section7Title": "Inversiones",
             "section7MainText": "Cultiva tu bienestar financiero a largo plazo a través de la diversificación consciente de tu cartera. Nuestras opciones de inversión están diseñadas para alinearse con tus objetivos y tu sensación de paz. Te brindaremos opciones con orientación para que tomes decisiones financieras desde la serenidad y el equilibrio.",
-            "contactTitle": "Contactanos"
+            "contactTitle": "Contactanos",
+            "contact-button1": "Contactar ahora"
         },
         "EN": {
             "home": "Home",
@@ -48,7 +49,8 @@
             "section6MainText": "Make informed financial decisions from a place of inner peace through our appraisal services. Obtain detailed and reliable evaluations backed by professionals who understand the value of tranquility in your choices. Whether you’re buying, selling, or refinancing, our appraisals provide the certainty you need to move forward in balance.",
             "section7Title": "Investments",
             "section7MainText": "Cultivate long-term financial well-being through conscious diversification of your portfolio. Our investment options are designed to align with your goals and sense of peace. We’ll provide guidance so you can make financial decisions from a place of serenity and balance.",
-            "contactTitle": "Contact us"
+            "contactTitle": "Contact us",
+            "contact-button1": "Contact now"
         }
     }
 }
