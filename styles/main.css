@@ -330,7 +330,7 @@ h5.arrow-icon::after {
 .brand-slider::after {
     background: linear-gradient(to right, rgba(var(--bs-dark-rgb)) 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
-    height: 100px;
+    height: 100%;
     position: absolute;
     width: 200px;
     z-index: 2;
@@ -352,7 +352,7 @@ h5.arrow-icon::after {
     -webkit-animation: scroll 20s linear infinite;
     animation: scroll 20s linear infinite;
     display: flex;
-    width: calc(800px * 4);
+    width: calc(400px * 8);
 }
 
 .brand-slider:hover .slide-track {
@@ -360,7 +360,7 @@ h5.arrow-icon::after {
 }
 
 .brand-slider .slide {
-    width: 800px;
+    width: 400px;
 }
 
 
@@ -382,8 +382,8 @@ h5.arrow-icon::after {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-800px * 2));
-        transform: translateX(calc(-800px * 2));
+        -webkit-transform: translateX(calc(-400px * 4));
+        transform: translateX(calc(-400px * 4));
     }
 }
 
@@ -394,8 +394,8 @@ h5.arrow-icon::after {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-800px * 2));
-        transform: translateX(calc(-800px * 2));
+        -webkit-transform: translateX(calc(-400px * 4));
+        transform: translateX(calc(-400px * 4));
     }
 }
 
