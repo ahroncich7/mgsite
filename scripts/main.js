@@ -41,8 +41,7 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
             var cardWidth = $("#reviews .carousel-item").width();
             var scrollPosition = 0;
             $("#carouselReview .carousel-control-next").on("click", function () {
-                console.log(cardWidth)
-                if (scrollPosition < carouselWidth - cardWidth * 2) {
+                if (scrollPosition < carouselWidth - cardWidth) {
                     scrollPosition += cardWidth;
                     $("#carouselReview .carousel-inner").animate(
                         { scrollLeft: scrollPosition },

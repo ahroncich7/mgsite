@@ -256,14 +256,17 @@ h4 {
     margin-bottom: 4rem !important;
 }
 
-.text-primary-color{
-    color: var(--dark-green)!important;
+.text-primary-color {
+    color: var(--dark-green) !important;
 }
 
-.text-secondary-color{
-    color: var(--beige)!important;
+.text-secondary-color {
+    color: var(--beige) !important;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
 
 /* WHATSAPP ICON */
 
@@ -337,6 +340,7 @@ header .social * {
 header .social a {
     white-space: nowrap;
 }
+
 
 
 /* HOME */
