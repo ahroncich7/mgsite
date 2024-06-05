@@ -162,7 +162,7 @@ body *:hover {
     background-color: rgb(255, 255, 255, 0.8);
 }
 
-.bg-primary {
+.bg-primary-color {
     background-color: var(--dark-green) !important;
 }
 
@@ -319,6 +319,43 @@ h5.arrow-icon::after {
     animation: spin 1s ease infinite;
 }
 
+
+/* CAROUSEL REVIEWS */
+
+#carouselReview .carousel-indicators [data-bs-target] {
+    background-color: black!important;
+}
+
+#carouselReview .card {
+    max-height: 300px;
+}
+
+.review-thumbnail{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.thumbnail-1{
+    background-image: url(../Assets/thumb1.png);
+}
+
+.thumbnail-2{
+    background-image: url(../Assets/thumb2.png);
+}
+
+.thumbnail-3{
+    background-image: url(../Assets/thumb1.png);
+}
+
+.thumbnail-4{
+    background-image: url(../Assets/thumb1.png);
+}
+
+.thumbnail-5{
+    background-image: url(../Assets/thumb2.png);
+}
 
 
 /* SLIDER */
