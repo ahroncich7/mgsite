@@ -86,7 +86,7 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
             try {
                 const keyString = element.dataset.i18n;
                 const string = languageTexts[keyString];
-                element.textContent = string;
+                element.innerHTML = string;
             } catch {
             }
         })
