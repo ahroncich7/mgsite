@@ -122,6 +122,52 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
     docReady.push(applyAnimations);
 
 
+    const animatedHeroTitle = () => {
+        var msg = 'Mensaje de prueba...';
+        var k = 0;
+        var char = 0;
+        var output = $('#hero-title');
+        var back = false; // valida si se suma o se resta
+
+        var app = {
+            init: function (text, target) {
+                target.html('');
+                char = text.length;
+                this.sayHello(text, target);
+            },
+            sayHello: function (text, target) {
+                target.text(text.slice(0, k));
+                var that = this;
+
+                if (!back) { //valida que sea false
+
+                    if (k == text.length) setTimeout(function () {
+                        back = !back; // valida si k es igual longitud del arreglo para ir hacia atras
+                    }, 1000)
+                    k++;
+                    setTimeout(function () {
+                        that.sayHello(text, target);
+                    }, 30);
+
+                } else {
+                    k--;
+                    if (k == 0) back = !back; // valida que k sea igual a 0 para ir hacia adelante
+                    setTimeout(function () {
+                        that.sayHello(text, target);
+                    }, 30);
+                }
+
+                // var timer = setTimeout(function () {
+                //     that.sayHello(text, target);
+                // }, 50);
+            }
+        };
+        app.init(msg, output);
+    };
+
+    docReady.push(animatedHeroTitle);
+
+
     //REUSABLES
     const setPageReady = () => {
         //SPINNER OFF
