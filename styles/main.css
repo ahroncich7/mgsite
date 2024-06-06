@@ -243,6 +243,10 @@ body *:hover {
     flex-wrap: nowrap !important;
 }
 
+.text-no-wrap{
+    white-space: nowrap!important;
+}
+
 .navbar-toggler:focus {
     box-shadow: 0px 0px 0px 2px #FFF;
 }
@@ -265,7 +269,7 @@ h4 {
 }
 
 .text-light-gray {
-    color: var(--bs-gray-500)!important;
+    color: var(--bs-gray-500) !important;
 }
 
 .cursor-pointer {
@@ -386,6 +390,88 @@ header .social a {
     bottom: 38%;
     left: 16%;
     position: absolute;
+}
+
+.typed-cursor{
+    opacity: 1;
+    font-weight: 300;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: #fff;
+    font-size: 2.5em;
+}
+
+@-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 
@@ -523,31 +609,6 @@ h5.arrow-icon::after {
     max-height: 100%;
 }
 
-/* 
-@media (max-width: 767px) {
-    #reviews .card .img-wrapper {
-        height: 17em;
-    }
-} */
-
-/* borrar */
-
-
-
-
-
-
-
-
-
-/* #carouselReview {
-    max-width: 500px;
-} */
-/* 
-#carouselReview .carousel-indicators [data-bs-target] {
-    background-color: black !important;
-}
-*/
 #carouselReview .card {
     aspect-ratio: inherit;
 }

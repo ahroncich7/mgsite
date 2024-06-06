@@ -3,6 +3,8 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
 (() => {
     var selectedLanguage = "es";
     var languageTexts = {};
+    var heroTextArray = ["futuro", "otro", "buda"];
+    var breakHeroAnimation = false;
     const docReady = [];
 
     document.addEventListener("DOMContentLoaded", (event) => {
@@ -80,7 +82,8 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
 
     //TRANSLATIONS
     const translateTexts = () => {
-        // const i18n = document.querySelectorAll(".translatable");
+
+        // Traduce los textos en el dom
         const i18n = document.querySelectorAll("[data-i18n]");
         i18n.forEach((element) => {
             try {
@@ -90,6 +93,10 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
             } catch {
             }
         })
+
+        // Traduce variables globales
+        heroTextArray = languageTexts.heroTexts;
+        breakHeroAnimation = true;
     }
     docReady.push(translateTexts);
 
@@ -123,11 +130,11 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
 
 
     const animatedHeroTitle = () => {
-        var msg = 'Mensaje de prueba...';
         var k = 0;
         var char = 0;
         var output = $('#hero-title');
         var back = false; // valida si se suma o se resta
+        var index = 0;
 
         var app = {
             init: function (text, target) {
@@ -136,14 +143,22 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
                 this.sayHello(text, target);
             },
             sayHello: function (text, target) {
+                if (breakHeroAnimation) {
+                    breakHeroAnimation = false;
+                    text = heroTextArray[index]
+                }
                 target.text(text.slice(0, k));
                 var that = this;
 
                 if (!back) { //valida que sea false
 
-                    if (k == text.length) setTimeout(function () {
-                        back = !back; // valida si k es igual longitud del arreglo para ir hacia atras
-                    }, 1000)
+                    if (k == text.length) {// valida si k es igual longitud del arreglo para ir hacia atras 
+                        setTimeout(function () {
+                            back = !back;
+                        }, 1000)
+                    }
+
+
                     k++;
                     setTimeout(function () {
                         that.sayHello(text, target);
@@ -151,7 +166,12 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
 
                 } else {
                     k--;
-                    if (k == 0) back = !back; // valida que k sea igual a 0 para ir hacia adelante
+                    if (k == 0) { // valida que k sea igual a 0 para ir hacia adelante
+                        back = !back;
+                        index++
+                        if (index == heroTextArray.length) { index = 0 } //Si no hay mas opciones reinicia las palabras
+                        text = heroTextArray[index]
+                    }
                     setTimeout(function () {
                         that.sayHello(text, target);
                     }, 30);
@@ -162,7 +182,7 @@ import i18n from "../Assets/Languages.json" with {type: 'json'};
                 // }, 50);
             }
         };
-        app.init(msg, output);
+        app.init(heroTextArray[0], output);
     };
 
     docReady.push(animatedHeroTitle);

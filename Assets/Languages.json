@@ -1,8 +1,18 @@
 {
     "texts": {
         "ES": {
-            "langTag":"ES",
-            "chat":"Chatear",
+            "langTag": "ES",
+            "chat": "Chatear",
+            "heroTexts": [
+                "Hay futuro",
+                "Acompañándote a cumplir tus sueños",
+                "Estamos en cada etapa de tu vida",
+                "Decisiones inteligentes, futuro brillante",
+                "Construyamos juntos tu estabilidad económica",
+                "Hacia un mañana sin preocupaciones financieras",
+                "Cuidamos de tus finanzas, cuida de tus sueños",
+                "Tranquilidad financiera, vida plena"
+            ],
             "home": "Home",
             "services": "Servicios",
             "section1Title": "Préstamos Personales",
@@ -47,8 +57,18 @@
             "visionText": "Nuestra visión es ser la referencia líder en consultoría financiera, redefiniendo cómo las personas perciben y manejan sus finanzas. Aspiramos a un entorno donde cada cliente se sienta valorado y apoyado, logrando la tranquilidad y seguridad financiera como una realidad accesible para todos."
         },
         "EN": {
-            "langTag":"EN",
-            "chat":"Chat",
+            "langTag": "EN",
+            "chat": "Chat",
+            "heroTexts": [
+                "There is a future",
+                "Accompanying you to fulfill your dreams",
+                "We are in every stage of your life",
+                "Smart decisions, bright future",
+                "Let's build your financial stability together",
+                "Towards a worry-free financial future",
+                "We take care of your finances, take care of your dreams",
+                "Financial peace, full life"
+            ],
             "home": "Home",
             "services": "Services",
             "section1Title": "Personal Loans",
