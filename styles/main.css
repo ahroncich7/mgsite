@@ -162,12 +162,14 @@ body *:hover {
 }
 
 .bgel5 {
-    position: relative;
+    background-image: url("../Assets/bgel5.jpg");
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bgel5::before {
+/* .bgel5-bg-filter {
     content: "";
-    z-index: -1;
     width: 100%;
     opacity: 0.5;
     top: 0;
@@ -175,8 +177,9 @@ body *:hover {
     background-image: url(../Assets/bgel5.jpg);
     background-size: cover;
     height: 100%;
+    background-position: left bottom;
     position: absolute;
-}
+} */
 
 
 .scale-1 {
