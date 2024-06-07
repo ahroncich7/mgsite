@@ -511,6 +511,10 @@ header .social a {
     box-shadow: var(--beige);
 }
 
+.form-container{
+    max-width: 600px;
+}
+
 .formpreview {
     background-color: transparent !important;
 }
