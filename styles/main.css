@@ -150,7 +150,7 @@ body *:hover {
 
 .bgel1 {
     background-image: url("../Assets/bgel1.jpg");
-    background-position: right;
+    background-position: left bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -698,9 +698,9 @@ h5.arrow-icon::after {
 
 .brand-slider .slide-track {
     -webkit-animation: scroll 20s linear infinite;
-    animation: scroll 20s linear infinite;
+    animation: scroll 40s linear infinite;
     display: flex;
-    width: calc(400px * 32);
+    width: calc(200px * 32);
 }
 
 .brand-slider:hover .slide-track {
@@ -708,7 +708,7 @@ h5.arrow-icon::after {
 }
 
 .brand-slider .slide {
-    width: 400px;
+    width: 200px;
 }
 
 
@@ -719,16 +719,18 @@ footer * {
 }
 
 footer .text2Footer {
-    font-size: 14px;
     display: inline-block;
     margin-top: 0;
-    margin-bottom: 20px
 }
 
 footer .social {
     /* height: 30px; */
 }
 
+footer .bi-pin::before {
+
+    margin-top: 0.4em;
+}
 
 
 
@@ -763,8 +765,8 @@ footer .social {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-400px * 16));
-        transform: translateX(calc(-400px * 16));
+        -webkit-transform: translateX(calc(-200px * 16));
+        transform: translateX(calc(-200px * 16));
     }
 }
 
@@ -775,8 +777,8 @@ footer .social {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-400px * 16));
-        transform: translateX(calc(-400px * 16));
+        -webkit-transform: translateX(calc(-200px * 16));
+        transform: translateX(calc(-200px * 16));
     }
 }
 
