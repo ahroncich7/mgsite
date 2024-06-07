@@ -57,7 +57,8 @@
             "mission": "Misión",
             "missionText": "En Finance Wellness, nuestra misión es empoderarte para alcanzar la tranquilidad financiera mediante asesoramiento personalizado y estrategias efectivas. Transformamos la experiencia financiera en una jornada libre de estrés, ayudándote a tomar decisiones informadas y seguras para tu futuro económico.",
             "vision": "Visión",
-            "visionText": "Nuestra visión es ser la referencia líder en consultoría financiera, redefiniendo cómo las personas perciben y manejan sus finanzas. Aspiramos a un entorno donde cada cliente se sienta valorado y apoyado, logrando la tranquilidad y seguridad financiera como una realidad accesible para todos."
+            "visionText": "Nuestra visión es ser la referencia líder en consultoría financiera, redefiniendo cómo las personas perciben y manejan sus finanzas. Aspiramos a un entorno donde cada cliente se sienta valorado y apoyado, logrando la tranquilidad y seguridad financiera como una realidad accesible para todos.",
+            "findUs": "Encuéntranos"
         },
         "EN": {
             "langTag": "EN",
@@ -116,7 +117,8 @@
             "mission": "Mission",
             "missionText": "At Finance Wellness, our mission is to empower you to achieve financial tranquility through personalized advice and effective strategies. We transform the financial experience into a stress-free journey, helping you make informed and secure decisions for your economic future.",
             "vision": "Vision",
-            "visionText": "Our vision is to be the leading reference in financial consulting, redefining how people perceive and manage their finances. We aspire to an environment where every client feels valued and supported, achieving financial tranquility and security as an accessible reality for everyone."
+            "visionText": "Our vision is to be the leading reference in financial consulting, redefining how people perceive and manage their finances. We aspire to an environment where every client feels valued and supported, achieving financial tranquility and security as an accessible reality for everyone.",
+            "findUs": "Find us"
         }
     }
 }
