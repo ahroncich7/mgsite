@@ -243,8 +243,8 @@ body *:hover {
     flex-wrap: nowrap !important;
 }
 
-.text-no-wrap{
-    white-space: nowrap!important;
+.text-no-wrap {
+    white-space: nowrap !important;
 }
 
 .navbar-toggler:focus {
@@ -368,6 +368,9 @@ header .social a {
 
 /* HOME */
 
+#home {
+    scroll-snap-align: center;
+}
 
 #home .whatsapp-link {
     position: absolute;
@@ -390,9 +393,10 @@ header .social a {
     bottom: 38%;
     left: 16%;
     position: absolute;
+    min-height: 160px;
 }
 
-.typed-cursor{
+.typed-cursor {
     opacity: 1;
     font-weight: 300;
     -webkit-animation: blink 0.7s infinite;
@@ -402,6 +406,7 @@ header .social a {
     animation: blink 0.7s infinite;
     color: #fff;
     font-size: 2.5em;
+    line-height: normal
 }
 
 @-keyframes blink {
@@ -511,7 +516,7 @@ header .social a {
     box-shadow: var(--beige);
 }
 
-.form-container{
+.form-container {
     max-width: 600px;
 }
 
@@ -657,7 +662,7 @@ h5.arrow-icon::after {
 
 .brand-slider::before,
 .brand-slider::after {
-    background: linear-gradient(to right, rgba(var(--light-green-rgb)) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
     height: 100%;
     position: absolute;
@@ -681,11 +686,11 @@ h5.arrow-icon::after {
     -webkit-animation: scroll 20s linear infinite;
     animation: scroll 20s linear infinite;
     display: flex;
-    width: calc(400px * 8);
+    width: calc(400px * 32);
 }
 
 .brand-slider:hover .slide-track {
-    /* animation-play-state: paused; */
+    animation-play-state: paused;
 }
 
 .brand-slider .slide {
@@ -744,8 +749,8 @@ footer .social {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-400px * 4));
-        transform: translateX(calc(-400px * 4));
+        -webkit-transform: translateX(calc(-400px * 16));
+        transform: translateX(calc(-400px * 16));
     }
 }
 
@@ -756,8 +761,8 @@ footer .social {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-400px * 4));
-        transform: translateX(calc(-400px * 4));
+        -webkit-transform: translateX(calc(-400px * 16));
+        transform: translateX(calc(-400px * 16));
     }
 }
 
@@ -873,5 +878,25 @@ footer .social {
 
     #home .whatsapp-link button {
         font-size: 2rem !important;
+    }
+
+}
+
+
+/* ONLY MOBILE */
+@media (max-width: 768px) {
+
+    .typed-cursor {
+        font-size: 1.2rem;
+    }
+
+    #hero-title {
+        font-size: 1.2rem;
+        padding-right: 10px;
+    }
+
+    .brand-slider::before,
+    .brand-slider::after {
+        content: none;
     }
 }
