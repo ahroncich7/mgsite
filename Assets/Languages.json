@@ -59,7 +59,10 @@
             "missionText": "En Finance Wellness, nuestra misión es empoderarte para alcanzar la tranquilidad financiera mediante asesoramiento personalizado y estrategias efectivas. Transformamos la experiencia financiera en una jornada libre de estrés, ayudándote a tomar decisiones informadas y seguras para tu futuro económico.",
             "vision": "Visión",
             "visionText": "Nuestra visión es ser la referencia líder en consultoría financiera, redefiniendo cómo las personas perciben y manejan sus finanzas. Aspiramos a un entorno donde cada cliente se sienta valorado y apoyado, logrando la tranquilidad y seguridad financiera como una realidad accesible para todos.",
-            "findUs": "Encuéntranos"
+            "values": "Valores",
+            "valuesText": "<li> <span>Transparencia:</span> Actuamos con honestidad y claridad en todas nuestras interacciones con clientes y colaboradores.</li><li> <span>Integridad:</span> Nos comprometemos a mantener los más altos estándares éticos en todo lo que hacemos.</li><li> <span>Responsabilidad:</span> Asumimos la responsabilidad de nuestras acciones y nos esforzamos por cumplir con nuestras promesas.</li><li> <span>Empatía:</span> Escuchamos activamente las necesidades de nuestros clientes y nos ponemos en su lugar para proporcionar soluciones personalizadas.</li><li> <span>Innovación:</span> Buscamos continuamente nuevas formas de mejorar y adaptarnos para satisfacer mejor las necesidades cambiantes de nuestros clientes.</li><li> <span>Sostenibilidad:</span> Nos comprometemos a promover prácticas financieras sostenibles que beneficien tanto a nuestros clientes como a la comunidad.</li><li> <span>Excelencia en el servicio:</span> Nos esforzamos por ofrecer un servicio excepcional, superando las expectativas de nuestros clientes en cada interacción.</li><li> <span>Colaboración:</span> Fomentamos un ambiente de trabajo colaborativo donde cada miembro del equipo aporta valor y contribuye al éxito colectivo, dentro y fuera de FiWell.",
+            "findUs": "Encuéntranos",
+            "ourSocialNet": "Nuestras Redes"
         },
         "EN": {
             "langTag": "EN",

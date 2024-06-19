@@ -155,6 +155,14 @@ body *:hover {
     background-repeat: no-repeat;
 }
 
+.bgel2 {
+    background-color: var(--bs-gray-800);
+    background-image: url("../Assets/bgel2.png");
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .bgel3 {
     background-image: url("../Assets/bgel3.jpg");
     background-size: cover;
@@ -208,6 +216,11 @@ body *:hover {
 
 .max-w-100 {
     max-width: 100%;
+}
+
+.w-75-flex {
+
+    width: 100%;
 }
 
 .w-35 {
@@ -316,6 +329,19 @@ h4 {
 .whatsapp-fixed-icon:hover h5 {
     display: block !important;
     margin-bottom: 5px !important;
+}
+
+
+/* VISION */
+
+#vision li {
+    text-indent: -2rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+#vision li span {
+    font-weight: 700;
 }
 
 
@@ -606,6 +632,11 @@ h5.arrow-icon::after {
 
     #reviews .carousel-inner {
         display: flex;
+    }
+
+
+    .w-75-flex {
+        width: 75%;
     }
 }
 
