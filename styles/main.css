@@ -159,7 +159,7 @@ body *:hover {
     background-color: var(--bs-gray-800);
     background-image: url("../Assets/bgel2.png");
     background-position: right bottom;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
