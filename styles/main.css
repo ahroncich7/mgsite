@@ -700,7 +700,7 @@ h5.arrow-icon::after {
     -webkit-animation: scroll 90s linear infinite;
     animation: scroll 90s linear infinite;
     display: flex;
-    width: calc(4994px * 2);
+    width: calc(2497px * 2);
 }
 
 .brand-slider:hover .slide-track {
@@ -708,7 +708,7 @@ h5.arrow-icon::after {
 }
 
 .brand-slider .slide {
-    width: 4994px;
+    width: 2497px;
 }
 
 
@@ -765,8 +765,8 @@ footer .bi-pin::before {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-4994px * 1));
-        transform: translateX(calc(-4994px * 1));
+        -webkit-transform: translateX(calc(-2497px * 1));
+        transform: translateX(calc(-2497 * 1));
     }
 }
 
@@ -777,8 +777,8 @@ footer .bi-pin::before {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-4994px * 1));
-        transform: translateX(calc(-4994px * 1));
+        -webkit-transform: translateX(calc(-2497px * 1));
+        transform: translateX(calc(-2497px * 1));
     }
 }
 
