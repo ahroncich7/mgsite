@@ -9,9 +9,10 @@
                 "Estamos en cada etapa de tu vida",
                 "Decisiones inteligentes, futuro brillante",
                 "Construyamos juntos tu estabilidad económica",
-                "Hacia un mañana sin preocupaciones financieras",
+                "Hacia un mañana sin preocupaciones económicas",
                 "Cuidamos de tus finanzas, cuida de tus sueños",
-                "Tranquilidad financiera, vida plena"
+                "El tiempo es lo más valioso que tienes, cuida de tus sueños.",
+                "Tranquilidad económica, vida plena"
             ],
             "home": "Home",
             "services": "Servicios",
@@ -66,11 +67,12 @@
             "heroTexts": [
                 "There is a future",
                 "Accompanying you to fulfill your dreams",
-                "We are in every stage of your life",
+                "We are with you at every stage of your life",
                 "Smart decisions, bright future",
                 "Let's build your financial stability together",
                 "Towards a worry-free financial future",
                 "We take care of your finances, take care of your dreams",
+                "Time is the most valuable thing you have, take care of your dreams",
                 "Financial peace, full life"
             ],
             "home": "Home",
