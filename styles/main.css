@@ -731,7 +731,7 @@ h5.arrow-icon::after {
     -webkit-animation: scroll 90s linear infinite;
     animation: scroll 90s linear infinite;
     display: flex;
-    width: calc(2497px * 2);
+    width: calc(200px * 32);
 }
 
 .brand-slider:hover .slide-track {
@@ -739,7 +739,8 @@ h5.arrow-icon::after {
 }
 
 .brand-slider .slide {
-    width: 2497px;
+    width: 160px;
+    margin: 0 20px;
 }
 
 
@@ -796,8 +797,8 @@ footer .bi-pin::before {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-2497px * 1));
-        transform: translateX(calc(-2497 * 1));
+        -webkit-transform: translateX(calc(-200px * 16));
+        transform: translateX(calc(-200px * 16));
     }
 }
 
@@ -808,8 +809,8 @@ footer .bi-pin::before {
     }
 
     100% {
-        -webkit-transform: translateX(calc(-2497px * 1));
-        transform: translateX(calc(-2497px * 1));
+        -webkit-transform: translateX(calc(-200px * 16));
+        transform: translateX(calc(-200px * 16));
     }
 }
 
@@ -829,7 +830,7 @@ footer .bi-pin::before {
 }
 
 .fadeInUp {
-    animation: fadeInUp 0.5s;
+    animation: fadeInUp 0.75s ease-in-out;
 }
 
 
@@ -848,7 +849,7 @@ footer .bi-pin::before {
 }
 
 .fadeInLeft {
-    animation: fadeInLeft 0.75s ease-in;
+    animation: fadeInLeft 0.75s ease-in-out;
 }
 
 
@@ -867,7 +868,7 @@ footer .bi-pin::before {
 }
 
 .fadeInRight {
-    animation: fadeInRight 0.75s ease-in;
+    animation: fadeInRight 0.75s ease-in-out;
 }
 
 
